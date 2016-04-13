@@ -1,0 +1,21 @@
+body{text-align: center;
+    background: #f2f6f8;}
+
+
+
+#container {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img{position:absolute;
+    z-index:1;}
+
+#clockSpinner{
+    position:relative;
+    z-index:20;
+    opacity:0.6;
+}
