@@ -32,9 +32,12 @@ function drawFace()
 
     gradient = context.createRadialGradient(0, 0, radius*0.95, 0, 0, radius*1.05);
     //Create 3 color stops, corresponding with the inner, middle, and outer edge of the arc:
-    gradient.addColorStop(0,"#003300");
+    /*gradient.addColorStop(0,"#003300");
     gradient.addColorStop(0.5, "#e6ffe6");
-    gradient.addColorStop(1, "#003300");
+    gradient.addColorStop(1, "#003300");*/
+    gradient.addColorStop(0,"#e6ffe6");
+    gradient.addColorStop(0.5, "#003300");
+    gradient.addColorStop(1, "#ffffff");
     context.strokeStyle = gradient; //Define the gradient as the stroke style of the drawing object
     context.lineWidth = radius * 0.1; //Define the line width of the drawing object (10% of radius)
     context.stroke(); //Draw the circle
@@ -70,6 +73,7 @@ function drawNumbers()
 
 function drawHands()
 {
+    context.strokeStyle = "#003300";
     var now, hour, minute, second;
     now = new Date();
     hour = now.getHours();

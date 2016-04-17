@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/test.css" />
     <script src="js/animation.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/map.js"></script>
     <title>Einzugsgebiete der Rettungsdienste</title>
 </head>
 
@@ -49,34 +50,10 @@
                             <span class="image featured">
                                 <div id="map"></div>
                                 <script>
-                                    function initMap()
-                                    {
-                                        var map = new google.maps.Map(document.getElementById('map'), {
-                                            center: {lat: 46.75, lng: 13.87},
-                                            zoom: 9
-                                        });
-                                        map.set('styles', [
-                                            {
-                                                featureType: 'road',
-                                                elementType: 'labels.icon',
-                                                stylers: [
-                                                    {visibility: 'off'}
-                                                ]
-                                            }
-                                        ]);
-
-                                        var kmlOptions = {
-                                            suppressInfoWindows: true,
-                                            preserveViewport: true,
-                                            map:map
-                                        };
-                                        var kmlLayerFrame = new google.maps.KmlLayer("http://evnica.com/kml/frameDark.kmz", kmlOptions);
-                                        var kmlLayerBorder = new google.maps.KmlLayer("http://evnica.com/kml/kaernten.kml", kmlOptions);
-                                    }
-
+                                    initMap();
                                 </script>
                                 <!--key=AIzaSyCyCe3su5DcGLQIW8cfU2cvJzZylSPrF4E&-->
-                                 <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&language=de&region=DE"
+                                <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&language=de&region=DE"
                                          async defer></script>
                                 <!--<img src="img/Map_at_carinthia_topo.png" alt="Kärnten" />-->
                             </span>
@@ -150,6 +127,7 @@
     <script src="js/skel-viewport.min.js"></script>
     <script src="js/util.js"></script>
     <script src="js/main.js"></script>
+
 
 
 
