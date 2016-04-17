@@ -1831,7 +1831,7 @@ button.alt:active,
     /* Wrappers */
 
     #features-wrapper {
-        padding: 6em 0 6em 0;
+        padding: 4em 0 6em 0;
     }
 
     #banner-wrapper {
@@ -1849,7 +1849,7 @@ button.alt:active,
     /* Header */
 
     #header {
-        padding: 8em 0 2em 0;
+        padding: 8em 0 3em 0;
     }
 
     #header h1 {
