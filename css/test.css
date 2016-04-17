@@ -11,7 +11,8 @@ body{text-align: center;
     position: relative;
 }
 
-.img{position:absolute;
+#clockCanvas{
+    position:absolute;
     z-index:1;}
 
 #clockSpinner{
