@@ -426,7 +426,7 @@ body {
 @media screen and (min-width: 737px) {
 
     .row > * {
-        padding: 50px 0 0 50px;
+        padding: 50px 0 0 40px;
     }
 
     .row {
@@ -1452,7 +1452,7 @@ button,
     -webkit-appearance: none;
     position: relative;
     display: inline-block;
-    background: #ed786a;
+    background: #397339;
     color: #fff !important;
     text-transform: uppercase;
     border-radius: 4px;
@@ -1480,7 +1480,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-    background: #fd887a;
+    background: #9bba8a;
 }
 
 input[type="button"]:active,
@@ -1636,7 +1636,7 @@ button.alt:active,
 }
 
 #header h1 {
-    font-family: 'Arvo';
+    font-family: 'Arvo', serif;
     font-weight: 700;
     color: #41a341;
     text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
@@ -1654,7 +1654,7 @@ button.alt:active,
 
 /* Nav */
 
-#nav {
+#nav, #controls{
     cursor: default;
 }
 
@@ -1665,6 +1665,7 @@ button.alt:active,
     font-weight: 400;
     color: #777;
     outline: 0;
+
 }
 
 #nav > ul > li > a:before {
@@ -1693,6 +1694,11 @@ button.alt:active,
     transition: color 0.25s ease-in-out;
 }
 
+#controls > ul > li.active > a:before, #controls > ul > li:hover > a:before {
+    background: #397339;
+    color: #fff;
+}
+
 #nav > ul > li.active > a:before, #nav > ul > li:hover > a:before {
     background: #ED786A;
     color: #fff;
@@ -1700,6 +1706,10 @@ button.alt:active,
 
 #nav > ul > li.active > a > span, #nav > ul > li:hover > a > span {
     color: #ED786A;
+}
+
+#controls > ul > li.active > a > span, #controls > ul > li:hover > a > span {
+    color: #397339;
 }
 
 /* Features */
@@ -1795,7 +1805,7 @@ button.alt:active,
     .button {
         font-size: 0.85em;
         letter-spacing: 2px;
-        padding: 0.85em 2.75em 0.85em 2.75em;
+        padding: 0.85em 2em 0.85em 2em;
     }
 
     /* List */
@@ -1865,7 +1875,7 @@ button.alt:active,
 
     /* Nav */
 
-    #nav {
+    #nav{
         position: absolute;
         top: 3em;
         left: 0;
@@ -1874,6 +1884,11 @@ button.alt:active,
 
     #nav > ul > li {
         display: inline-block;
+        padding-right: 1em;
+    }
+
+    #controls > ul > li {
+        display: inline-block;
         padding-right: 2em;
     }
 
@@ -1881,7 +1896,15 @@ button.alt:active,
         padding-right: 0;
     }
 
+    #controls> ul > li:last-child {
+        padding-right: 0;
+    }
+
     #nav > ul > li > a {
+        display: block;
+    }
+
+    #controls> ul > li > a {
         display: block;
     }
 
