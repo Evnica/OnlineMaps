@@ -1488,7 +1488,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 button:active,
 .button:active {
-    background: #ed786a;
+    background: #397339;
 }
 
 input[type="button"].alt,
