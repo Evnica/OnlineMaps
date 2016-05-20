@@ -1,7 +1,9 @@
+var rgb = [],
+    start = [],
+    end = [];
 var map,
-    j,
     index = 0,
-    readyToPlay = true,
+    playing = false,
     kmlOptions,
     lastAddedOverlay;
 var images = [  "http://evnica.com/kml/img/1min.png",
@@ -152,6 +154,19 @@ var latLongBounds = [
 ];
 var groundOverlays = [];
 
+function prepareTheClock()
+{
+    var color;
+
+    for (var i = 0; i < 20; i++)
+    {
+        color = Math.floor(255 / 60 * i * 2.5);
+        rgb.push('rgb(' + color + ', ' + 210 + ', ' + 0 + ')');
+        start.push(Math.floor(6 * (i) - 90)); //start at the top: -90 degrees, 12 o'clock
+        end.push(Math.floor(6 * (i + 1) - 90)); // and at -84 degrees, which corresponds to 1 minute
+    }
+}
+
 function initMap()
 {
     map = new google.maps.Map(document.getElementById('map'),
@@ -185,33 +200,52 @@ function initMap()
 
     var kmlLayerFrame = new google.maps.KmlLayer("http://evnica.com/kml/frameDark.kmz", kmlOptions);
     var kmlLayerBorder = new google.maps.KmlLayer("http://evnica.com/kml/kaernten.kml", kmlOptions);
+    prepareTheClock();
 }
 
-function stepForward() {
-    if (readyToPlay)
+function stepForward()
+{
+    var canvas = document.getElementById('clockSpinner'); //locate the spinner
+    var context = canvas.getContext("2d");
+    if (index < images.length)
     {
-        if (index < images.length) {
-            lastAddedOverlay = new google.maps.GroundOverlay(images[index], latLongBounds[index]);
-            lastAddedOverlay.setMap(map);
-            groundOverlays.push(lastAddedOverlay);
-            if (index > 14)
-            {
-                groundOverlays[14].setMap(map);
-            }
-            if (index > 9)
-            {
-                groundOverlays[9].setMap(map);
-            }
-            if (index > 4)
-            {
-                groundOverlays[4].setMap(map);
-            }
-            index++;
+        //draw a sector in a clock
+        context.save();
+        context.strokeStyle = rgb[index];
+        context.lineWidth = 44; // fits to the size of the clock canvas
+        context.beginPath();
+        context.arc(75, 75, 44, (Math.PI / 180) * start[index], (Math.PI / 180) * end[index], false);
+        context.stroke();
+        context.restore();
+
+        //draw a layer
+        lastAddedOverlay = new google.maps.GroundOverlay(images[index], latLongBounds[index]);
+        lastAddedOverlay.setMap(map);
+        groundOverlays.push(lastAddedOverlay);
+        if (index > 14) {
+            groundOverlays[14].setMap(map);
         }
-        else {
-            resetMap();
-            index = 0;
+        if (index > 9) {
+            groundOverlays[9].setMap(map);
         }
+        if (index > 4) {
+            groundOverlays[4].setMap(map);
+        }
+        index++;
+    }
+    else
+    {
+        clear();
+    }
+}
+
+
+function play() 
+{
+
+    if (!playing) {
+        playing = true;
+        window.canvasTimer = setInterval(stepForward, 1000);
     }
 }
 
@@ -220,5 +254,28 @@ function resetMap() {
     {
         groundOverlays[i].setMap(null);
     }
-    
+}
+
+function pause() {
+    if (playing)
+    {
+        clearInterval(window.canvasTimer);
+        playing = false;
+    }
+}
+
+function stop()
+{
+    if (playing)
+    {
+        clear();
+    }
+}
+
+function clear() {
+    clearInterval(window.canvasTimer);
+    context.clearRect(0, 0, 150, 150);
+    resetMap();
+    index = 0;
+    playing = false;
 }

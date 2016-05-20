@@ -35,18 +35,18 @@ var layers = []
 }*/;
 var playedCompletely = false;
 
-function initMap()
+/*function initMap()
 {
     map = new google.maps.Map(document.getElementById('map'),
         {
             center: {lat: 46.75, lng: 13.87},
             zoom: 9,
             mapTypeControl: false,
-            /*mapTypeControlOptions:
+            /!*mapTypeControlOptions:
              {
              style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
              position: google.maps.ControlPosition.BOTTOM_LEFT
-             },*/
+             },*!/
             scaleControl: true,
             streetViewControl: false
         }                        );
@@ -68,7 +68,7 @@ function initMap()
 
     var kmlLayerFrame = new google.maps.KmlLayer("http://evnica.com/kml/frameDark.kmz", kmlOptions);
     var kmlLayerBorder = new google.maps.KmlLayer("http://evnica.com/kml/kaernten.kml", kmlOptions);
-}
+}*/
 
 function loadRescueKml(i)
 {
@@ -80,14 +80,14 @@ function loadRescueKml(i)
     }
 }
 
-function pause()
+/*function pause()
 {
     if (proceed == true)
     {
         proceed = false;
         clearInterval(window.canvasTimer);
     }
-}
+}*/
 
 /**
  * The further code was inspired by html5demos: https://github.com/remy/html5demos/blob/master/demos/canvas.html

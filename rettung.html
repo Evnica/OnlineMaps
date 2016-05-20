@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="ISO-8859-1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -30,7 +30,7 @@
                         <li><a class="fa fa-home" href="index.html"><span>Projektstartseite</span></a></li>
                         <li><a class="fa fa-eye" href="details.html"><span>Projektdetails</span></a></li>
                         <li><a class="fa fa-file-code-o" href="https://github.com/Evnica/OnlineMaps" target="_blank"><span>Projekt auf Github</span></a></li>
-                        <li><a href="http://www.fh-kaernten.at/startseite/" target="_blank" class="fa fa-university"><span>FH Kï¿½rnten</span></a></li>
+                        <li><a href="http://www.fh-kaernten.at/startseite/" target="_blank" class="fa fa-university"><span>FH Kärnten</span></a></li>
                     </ul>
                 </nav>
             </div>
@@ -57,7 +57,7 @@
                                     <ul>
                                         <li>
 
-                                            <button class="button" title="Szenario abspielen" value="play" onclick="startRescueAnimation({x: 75, y: 75, size: 44})">
+                                            <button class="button" id="play" title="Szenario abspielen" value="play" onclick="play()">
                                                 <i class="fa fa-play fa-2x"></i>
                                             </button>
                                         </li>
@@ -67,8 +67,8 @@
                                             </button>
                                         </li>
                                         <li>
-                                            <button class="button" title="Schritt zurï¿½ck" value="backward" onclick="stepBackward()">
-                                                <i class="fa fa-backward fa-2x"></i>
+                                            <button class="button" title="Stop" value="backward" onclick="stop()">
+                                                <i class="fa fa-stop fa-2x"></i>
                                             </button>
                                         </li>
                                         <li>
@@ -78,10 +78,10 @@
                                         </li>
                                     </ul>
                                 </nav>
-                            <p>Die Rettungsdienstliche Versorgung in Kï¿½rnten wird von 25 Rettungsstationen sichergestellt,
+                            <p>Die Rettungsdienstliche Versorgung in Kärnten wird von 25 Rettungsstationen sichergestellt,
                                 diese sind unter anderem das Rote Kreuz, die Johanniter Unfall Hilfe sowie der Samariterbund.
-                                In ï¿½sterreich betrï¿½gt die Hilfsfrist fï¿½r Rettungsdienste 15 Minuten, das heiï¿½t jeder an
-                                einer ï¿½ffentlichen Straï¿½e liegende Notfallort soll innerhalb von 15 Minuten erreicht werden.
+                                In Österreich beträgt die Hilfsfrist für Rettungsdienste 15 Minuten, das heißt jeder an
+                                einer öffentlichen Straße liegende Notfallort soll innerhalb von 15 Minuten erreicht werden.
 
                                 Diese animierte Karte zeigt die Standorte der Rettungsdienste sowie die wachsenden
                                 Versorgungsgebiete, welche innerhalb der Zeitspanne von 1 bis 20 Minuten entstehen.</p>
@@ -108,7 +108,7 @@
                                     <!-- Highlight -->
                                     <article class="box highlight">
                                         <header>
-                                            <h3>Details</h3>
+                                            <h3>Legende</h3>
                                         </header>
                                         <a href="#" class="image left"><img src="img/Rettung_1.jpg" alt="" /></a>
                                         <p>Phasellus  sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
