@@ -2,6 +2,7 @@ var rgb = [],
     start = [],
     end = [];
 var map,
+    rescueStations,
     index = 0,
     playing = false,
     kmlOptions,
@@ -209,6 +210,10 @@ function stepForward()
     var context = canvas.getContext("2d");
     if (index < images.length)
     {
+        if (index == 0)
+        {
+            rescueStations = new google.maps.KmlLayer("http://evnica.com/kml/rescueStations.kmz", kmlOptions);
+        }
         //draw a sector in a clock
         context.save();
         context.strokeStyle = rgb[index];
@@ -235,7 +240,11 @@ function stepForward()
     }
     else
     {
-        clear();
+        clearInterval(window.canvasTimer);
+        context.clearRect(0, 0, 150, 150);
+        resetMap();
+        index = 0;
+        playing = false;
     }
 }
 
@@ -254,6 +263,7 @@ function resetMap() {
     {
         groundOverlays[i].setMap(null);
     }
+    rescueStations.setMap(null);
 }
 
 function pause() {
@@ -268,14 +278,12 @@ function stop()
 {
     if (playing)
     {
-        clear();
+        var canvas = document.getElementById('clockSpinner'); //locate the spinner
+        var context = canvas.getContext("2d");
+        clearInterval(window.canvasTimer);
+        context.clearRect(0, 0, 150, 150);
+        resetMap();
+        index = 0;
+        playing = false;
     }
-}
-
-function clear() {
-    clearInterval(window.canvasTimer);
-    context.clearRect(0, 0, 150, 150);
-    resetMap();
-    index = 0;
-    playing = false;
 }
