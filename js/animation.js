@@ -276,8 +276,6 @@ function pause() {
 
 function stop()
 {
-    if (playing)
-    {
         var canvas = document.getElementById('clockSpinner'); //locate the spinner
         var context = canvas.getContext("2d");
         clearInterval(window.canvasTimer);
@@ -285,5 +283,4 @@ function stop()
         resetMap();
         index = 0;
         playing = false;
-    }
 }
