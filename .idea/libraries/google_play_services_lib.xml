@@ -1,5 +1,10 @@
 <component name="libraryTable">
   <library name="google-play-services_lib" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://C:/Program Files/Android/extras/google/google_play_services/libproject/google-play-services_lib" />
+      </sourceFilesUrls>
+    </properties>
     <CLASSES>
       <root url="file://C:/Program Files/Android/extras/google/google_play_services/libproject/google-play-services_lib" />
     </CLASSES>

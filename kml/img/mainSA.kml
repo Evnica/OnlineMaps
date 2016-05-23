@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+ <Folder>
+<Document id="5min">
+  <name>5min</name>
+  <Snippet></Snippet>
+  <GroundOverlay>
+    <name>5min</name>
+    <drawOrder>8</drawOrder>
+    <Icon>
+      <href>5min.png</href>
+      <viewBoundScale>1.0</viewBoundScale>
+    </Icon>
+    <LatLonBox>
+      <north>47.07561775323683</north>
+      <south>46.40696758036267</south>
+      <east>15.26810112659137</east>
+      <west>12.52094677259624</west>
+      <rotation>0</rotation>
+    </LatLonBox>
+  </GroundOverlay>
+</Document>
+<Document id="10min">
+  <name>10min</name>
+  <Snippet></Snippet>
+  <GroundOverlay>
+    <name>10min</name>
+    <drawOrder>7</drawOrder>
+    <Icon>
+      <href>10min.png</href>
+      <viewBoundScale>1.0</viewBoundScale>
+    </Icon>
+    <LatLonBox>
+      <north>47.1111081877412</north>
+      <south>46.34983669673743</south>
+      <east>15.31682018742601</east>
+      <west>12.51422690199495</west>
+      <rotation>0</rotation>
+    </LatLonBox>
+  </GroundOverlay>
+</Document>
+<Document id="15min">
+  <name>15min</name>
+  <Snippet></Snippet>
+  <GroundOverlay>
+    <name>15min</name>
+    <Icon>
+      <href>15min.png</href>
+      <viewBoundScale>1.0</viewBoundScale>
+    </Icon>
+    <LatLonBox>
+      <north>47.15947310130673</north>
+      <south>46.33901058406462</south>
+      <east>15.36533073242824</east>
+      <west>12.43122742160384</west>
+      <rotation>0</rotation>
+    </LatLonBox>
+  </GroundOverlay>
+</Document>
+<Document id="20min">
+  <name>20min</name>
+  <Snippet></Snippet>
+  <GroundOverlay>
+    <name>20min</name>
+	<color>6bffffff</color> 
+    <Icon>
+      <href>20min.png</href>
+      <viewBoundScale>1.0</viewBoundScale>
+    </Icon>
+    <LatLonBox>
+      <north>47.18078502991148</north>
+      <south>46.33131523753399</south>
+      <east>15.41658622302126</east>
+      <west>12.34799279217626</west>
+      <rotation>0</rotation>
+    </LatLonBox>
+  </GroundOverlay>
+</Document>
+</Folder>
+</kml>

@@ -1,0 +1,1298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://www.opengis.net/kml/2.2 http://schemas.opengis.net/kml/2.2.0/ogckml22.xsd http://www.google.com/kml/ext/2.2 http://code.google.com/apis/kml/schema/kml22gx.xsd">
+<Document id="Rettungsdienst">
+  <name>Rettungsdienst</name>
+  <Snippet></Snippet>
+  <Folder id="FeatureLayer0">
+    <name>Rettungsdienst</name>
+    <Snippet></Snippet>
+    <Placemark id="ID_00000">
+      <name>RK-Bezirksstelle Hermagor</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Bezirksstelle Hermagor</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Bezirksstelle Hermagor</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Obervellach</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>88</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9620</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Hermagor</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 1700</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.38995812114265,46.6313129850511,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00001">
+      <name>RK-Bezirksstelle Klagenfurt</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Bezirksstelle Klagenfurt</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Bezirksstelle Klagenfurt</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Grete-Bittner-Straße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>9</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9020</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Klagenfurt am Wörthersee</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 1100</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.3014691420135,46.63657547645818,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00002">
+      <name>RK-Bezirksstelle Feldkirchen</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Bezirksstelle Feldkirchen</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Bezirksstelle Feldkirchen</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Lastenstraße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>15</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9560</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Feldkirchen in Kärnten</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 1800</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.10223571268637,46.71740039440067,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00003">
+      <name>RK-Ortsstelle Ferlach</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Ferlach</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Ferlach</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Waagstraße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9170</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Ferlach</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2181</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.29601783916274,46.52422653758691,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00004">
+      <name>RK-Ortsstelle Kötschach-Mauthen</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Kötschach-Mauthen</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Kötschach-Mauthen</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Kötschach</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>499</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9640</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Kötschach-Mauthen</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2771</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.00216615504166,46.67146731603706,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00005">
+      <name>RK-Bezirksstelle St. Veit an der Glan</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Bezirksstelle St. Veit an der Glan</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Bezirksstelle St. Veit an der Glan</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Henry Dunant Straße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>1</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9300</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>St. Veit an der Glan</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 1400</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.37073312861865,46.77969619170398,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00006">
+      <name>RK-Ortsstelle Gurktal</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Gurktal</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Gurktal</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Prof.-Löw-Straße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>4</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9342</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Gurk</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2471</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.29083556398651,46.8741055174717,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00007">
+      <name>RK-Ortsstelle Görtschitztal</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Görtschitztal</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Görtschitztal</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Gewerbestraße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9373</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Klein St. Paul</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2461</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.53758813327962,46.83526893979916,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00008">
+      <name>RK-Bezirksstelle Spittal an der Drau</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Bezirksstelle Spittal an der Drau</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Bezirksstelle Spittal an der Drau</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Koschatstraße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>22</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9800</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Spittal an der Drau</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 1300</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.49349703090749,46.79421312661943,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00009">
+      <name>RK-Ortsstelle Obervellach</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Obervellach</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Obervellach</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Obervellach</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>229</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9821</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Obervellach</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2361</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.20439583501143,46.92963418021831,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00010">
+      <name>RK-Ortsstelle Winklern</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Winklern</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Winklern</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Winklern</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>180</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9841</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Winklern</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2351</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 12.87827972320478,46.86910151352339,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00011">
+      <name>RK-Ortsstelle Friesach</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Friesach</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Friesach</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Neumarkter Straße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>60</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9360</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Friesach</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2441</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.39919345168041,46.96276214392742,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00012">
+      <name>RK-Bezirksstelle Villach</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Bezirksstelle Villach</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Bezirksstelle Villach</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Dreschnigstraße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>10</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9500</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Villach</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 1200</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.85576831926788,46.61653121309803,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00013">
+      <name>RK-Ortsstelle Velden</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Velden</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Velden</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Franz-Moro-Weg</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9220</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Velden am Wörther See</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2261</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.03166452249841,46.61474239887154,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00014">
+      <name>RK-Ortsstelle Feistritz/Drau</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Feistritz/Drau</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Feistritz/Drau</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Kreuzner Straße(Feistritz/Dr.)</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>208</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9710</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Feistritz an der Drau</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2251</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.66449322111833,46.69979318130955,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00015">
+      <name>RK-Ortsstelle Gmünd</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Gmünd</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Gmünd</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Untere Vorstadt</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>32</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9853</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Gmünd</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2331</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.52966215562838,46.90424292265282,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00016">
+      <name>RK-Ortsstelle Bleiburg</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Bleiburg</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Bleiburg</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Völkermarkter Straße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>2</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9150</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Bleiburg</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2661</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.79565306531155,46.59197477960436,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00017">
+      <name>RK-Bezirkstelle Völkermarkt</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Bezirkstelle Völkermarkt</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Bezirkstelle Völkermarkt</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Bleistraße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9100</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Völkermarkt</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 1600</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.61983481132331,46.66192051639526,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00018">
+      <name>RK-Bezirksstelle Wolfsberg</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Bezirksstelle Wolfsberg</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Bezirksstelle Wolfsberg</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Krankenhausstraße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>3</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9400</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Wolfsberg</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 1500</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.84660675677174,46.83226442261194,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00019">
+      <name>RK-Ortsstelle St. Paul/Lavanttal</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle St. Paul/Lavanttal</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle St. Paul/Lavanttal</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Schießstattstraße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>5</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9470</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>St. Paul im Lavanttal</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2531</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 14.8676430153021,46.70198837383203,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00020">
+      <name>Johanniter Kärnten Rettungs- und Einsatzdienste mildtätige GmbH</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Johanniter Kärnten Rettungs- und Einsatzdienste mildtätige GmbH</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>Johanniter Kärnten Rettungs- und Einsatzdienste mildtätige GmbH</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Wiedweg</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>39</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9564</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Patergassen</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)4275 - 634</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.85630656181729,46.8182997094724,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00021">
+      <name>Samariterbund Kärnten Rettung und Soziale Dienste gemeinnützige GmbH</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>Samariterbund Kärnten Rettung und Soziale Dienste gemeinnützige GmbH</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>Samariterbund Kärnten Rettung und Soziale Dienste gemeinnützige GmbH</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Seebacher Allee</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>40</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9500</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Villach</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)4242 - 25250</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.86702926897092,46.61996987763513,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00022">
+      <name>RK-Ortsstelle Greifenburg</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Greifenburg</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Greifenburg</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Greifenburg</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>145</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9761</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Greifenburg</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2321</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.18378388378962,46.74756017834573,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark id="ID_00023">
+      <name>RK-Ortsstelle Radenthein</name>
+      <Snippet></Snippet>
+      <description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+<td>RK-Ortsstelle Radenthein</td>
+</tr>
+<tr>
+<td>
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+<tr>
+<td>Name</td>
+<td>RK-Ortsstelle Radenthein</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Straße</td>
+<td>Hauptstraße</td>
+</tr>
+<tr>
+<td>Hausnummer</td>
+<td>62</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>PLZ</td>
+<td>9545</td>
+</tr>
+<tr>
+<td>Ort</td>
+<td>Radenthein</td>
+</tr>
+<tr bgcolor="#D4E4F3">
+<td>Telefonnummer</td>
+<td>+43(0)50 9144 2341</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</body>
+</html>
+]]></description>
+      <styleUrl>#IconStyle00</styleUrl>
+      <Point>
+        <altitudeMode>clampToGround</altitudeMode>
+        <coordinates> 13.69948592265629,46.80011630917817,0</coordinates>
+      </Point>
+    </Placemark>
+  </Folder>
+  <Style id="IconStyle00">
+    <IconStyle>
+      <Icon><href>Layer0_Symbol_1b5158d0_0.png</href></Icon>
+      <scale>1.125000</scale>
+    </IconStyle>
+    <LabelStyle>
+      <color>00000000</color>
+      <scale>0.000000</scale>
+    </LabelStyle>
+    <PolyStyle>
+      <color>ff000000</color>
+      <outline>0</outline>
+    </PolyStyle>
+  </Style>
+</Document>
+</kml>
