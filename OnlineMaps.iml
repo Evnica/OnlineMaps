@@ -4,6 +4,6 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="google-play-services_lib" level="project" />
+    <orderEntry type="library" name="customizations" level="project" />
   </component>
 </module>

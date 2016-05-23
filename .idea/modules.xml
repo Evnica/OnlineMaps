@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OnlineMaps.iml" filepath="$PROJECT_DIR$/OnlineMaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdata/jdata.iml" filepath="$PROJECT_DIR$/jdata/jdata.iml" />
     </modules>
   </component>
 </project>
