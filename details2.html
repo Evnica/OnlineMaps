@@ -158,7 +158,7 @@
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/icon_rescue.png" alt="" /></a>
+                        <a href="#" class="image"><img src="" alt="Image needed" /></a>
                         <div class="inner">
                             <h4>KML Layers</h4>
                             <p>08.04.2016. In der ersten Versionen der Karte werden die KML-Layer als Datenquelle verwendet.
@@ -168,7 +168,7 @@
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/icon_rescue.png" alt="" /></a>
+                        <a href="#" class="image"><img src="img/rettung_legende.png" alt="Image needed" /></a>
                         <div class="inner">
                             <h4>KML Layers: Die Reihenfolge der Schichten</h4>
                             <p>KML-Layers werden auf der Karte in der Reiehenfolge dargestellt, in der die zur Karte hinzugefügt werden.
@@ -177,18 +177,32 @@
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/rettung_beta.png" alt="" /></a>
+                        <a href="#" class="image"><img src="img/groundOverlays.png" alt="" /></a>
                         <div class="inner">
-                            <h4>Animierte Karte der Einzugsgebiete von Rettungsdiensten</h4>
-                            <p>Die neue Version der Karte ist fertig. Man kann das Szenario schrittweise, sowie auch voll
-                                automatisch abspielen. Die Schichten sind in der richtigen Reihenfolge visualisiert, und
+                            <h4>GroundOverlay statt KML-Layer</h4>
+                            <p>15.04.2016. Die Schichten sind in der richtigen Reihenfolge visualisiert, und
                                 man kann immer alle Zonen (5, 10, 15 und 20 Minuten) sehen. Mit dem GroundOverlays in der
-                                jetzigen Version ist diese frühere Exception nicht mehr da.Die Standorte der Rettungsdienste
-                                sind noch nicht optimal dargestellt: die rote Farbe auf dem grünen Hintergrund ist nicht
-                                auf jedem Bildschirm gut zu sehen.Die Legende ist statisch, und das ist zur Zeit annehmbar,
+                                jetzigen Version ist diese frühere Exception nicht mehr da. Die Legende ist statisch, und das ist zur Zeit annehmbar,
                                 aber könnte wenn nötig noch verbessert werden. Da dies nicht zur Hauptfunktionalität gehört,
-                                wird dies am Ende des Projektes gemacht, falls es noch genügend Zeit gibt. Statt “Schritt zurück”
-                                ist die “Stop” Funktionalität implementiert. Das macht Sinn, da das Szenario nur kurz ist,
+                                wird dies am Ende des Projektes gemacht, falls es noch genügend Zeit gibt. </p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="img/ourClock.png" alt="" /></a>
+                        <div class="inner">
+                            <h4>Die Uhr</h4>
+                            <p>22.04.2016. Um den Zeitverlauf zu visualisieren, wird eine Uhr verwendet. Jede Sekunde wird ein Sektor auf der Uhr,
+                            der einer Minute entspricht, eingefärbt. Gleichzeitig wird auch ein Polygon, welches das Einzugsgebiet für
+                            diese Fahrzeit darstellt, visualisiert. Die Sektoren auf der Uhr ändern die Farbe von grün bis gelb
+                            in Zusammenhang mit den entsprechenden EZG-Polygonen.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="" alt="Image needed" /></a>
+                        <div class="inner">
+                            <h4>Steuerungsmöglichkeiten</h4>
+                            <p>07.05.2016. Statt “Schritt zurück” ist die “Stop” Funktionalität implementiert.
+                                Das macht Sinn, da das Szenario nur kurz ist,
                                 und der sich der Ablauf nicht ändert. Das heißt, zum gewünschten Schritt kann man sehr einfach
                                 kommen, auch ohne Rückschritte. “Stop” ist hilfreich, da man wieder vom Anfang an beginnen kann
                                 ohne das Szenario fertig abspielen zu müssen. Rückschritte technisch zu implementieren ist
@@ -196,6 +210,16 @@
                                 gemalt werden da keine gemalten Sektoren gelöscht werden können. Die Uhr ist aber nur ein
                                 visuelles Hilfsmittel. Deshalb macht es Sinn, zuerst alle Szenarien fertig zu implementieren
                                 und falls noch Zeit vorhanden ist, die Rückschritte in das Rettungs-Szenario einzubauen.
+                                </p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="img/rettung_beta.png" alt="" /></a>
+                        <div class="inner">
+                            <h4>Animierte Karte der Einzugsgebiete von Rettungsdiensten</h4>
+                            <p>20.05.2016. Die neue Version der Karte ist fertig. Man kann das Szenario schrittweise, sowie auch voll
+                                automatisch abspielen. Die Standorte der Rettungsdienste sind noch nicht optimal dargestellt:
+                                die rote Farbe auf dem grünen Hintergrund ist nicht auf jedem Bildschirm gut zu sehen.
                                 Die beiden weiteren Szenarien (Pest und Allgemeinmediziner) sind noch nicht implementiert. </p>
                         </div>
                     </article>
@@ -206,28 +230,15 @@
         <!-- Four -->
         <section id="four">
             <div class="container">
-                <h3>Contact Me</h3>
-                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-                <form method="post" action="#">
-                    <div class="row uniform">
-                        <div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                        <div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                    </div>
-                    <div class="row uniform">
-                        <div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-                    </div>
-                    <div class="row uniform">
-                        <div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-                    </div>
-                    <div class="row uniform">
-                        <div class="12u">
-                            <ul class="actions">
-                                <li><input type="submit" class="special" value="Send Message" /></li>
-                                <li><input type="reset" value="Reset Form" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </form>
+                <h3>Ergebnisse</h3>
+                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
+                    Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
+                    Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
+                    Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+                <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
+                    Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
             </div>
         </section>
 
