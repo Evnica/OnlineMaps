@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/plague.css" />
     <script src="js/animation.js"></script>
+    <script src="js/torque.full.uncompressed.js"></script>
     <title>Pest</title>
 </head>
 
@@ -30,8 +31,10 @@
                 <ul>
                     <li><a class="fa fa-home" href="index.html"><span>Projektstartseite</span></a></li>
                     <li><a class="fa fa-eye" href="details.html"><span>Projektdetails</span></a></li>
-                    <li><a class="fa fa-file-code-o" href="https://github.com/Evnica/OnlineMaps" target="_blank"><span>Projekt auf Github</span></a></li>
-                    <li><a href="http://www.fh-kaernten.at/startseite/" target="_blank" class="fa fa-university"><span>FH Kärnten</span></a></li>
+                    <li><a class="fa fa-file-code-o" href="https://github.com/Evnica/OnlineMaps" target="_blank">
+                        <span>Projekt auf Github</span></a></li>
+                    <li><a href="http://www.fh-kaernten.at/startseite/" target="_blank" class="fa fa-university">
+                        <span>FH Kärnten</span></a></li>
                 </ul>
             </nav>
         </div>
@@ -48,31 +51,30 @@
                     <!-- Post -->
                     <article class="box post">
                         <div class="image featured" id="map"></div>
-                        <div id="torque-time"></div>
                         <nav id="controls">
                             <ul>
                                 <li>
 
-                                    <button class="button_plague" title="Animierte Karte" onclick="animate()">
+                                    <button id="torqueLayer" class="button_plague" title="Animierte Karte">
                                         <i class="fa fa-video-camera fa-2x"></i>
                                     </button>
                                 </li>
                                 <li>
-                                    Animierte Karte vorführen
+                                    Animierte Karte
                                 </li>
                                 <li>
-                                    <button class="button_plague" title="Statische Karte" value="backward" onclick="showStatic()">
+                                    <button id="sublayer0" class="button_plague" title="Statische Karte">
                                         <i class="fa fa-map-o fa-2x"></i>
                                     </button>
                                 </li>
                                 <li>
-                                    Statische Karte aller Denkmäler zeigen
+                                    Statische Karte
                                 </li>
                             </ul>
                         </nav>
                         <p>Im späten Mittelalter, aber auch im 17. und 18. Jahrhundert wütete die Pest in Kärnten.
                             Pestfriedhöfe und Massengräber waren keine Seltenheit.
-                            Pestmarterl und -säulen erinnern bis heute an die Pest. </p>
+                            Pestkreuze und -säulen erinnern bis heute an die Pest. </p>
                     </article>
                 </div>
 
@@ -81,6 +83,9 @@
 
                     <!-- Excerpts -->
                     <div id="container">
+                        <div id="torque_time">
+
+                        </div>
                         <img src="img/Sensenmann.png" class="sensenmann">
                     </div>
 
@@ -93,10 +98,11 @@
                                     <header>
                                         <h3>Legende</h3>
                                     </header>
-                                    <a href="#" class="image left"><img src="" alt="Legende" /></a>
+                                    <a href="#" class="image left"><img src="img/legend_plague.png" alt="Legende" /></a>
                                     <p>Für die Analyse werden die <a href="https://www.data.gv.at/">offenen Daten </a>
-                                        verwendet. Die Animation wird mit Hilfe der
-                                        <a target="_blank" href = "https://academy.cartodb.com"> CartoDB API implementiert.</a> </p>
+                                        verwendet. Die Karte wird mit Hilfe der
+                                        <a target="_blank" href = "https://docs.cartodb.com/cartodb-platform/cartodb-js/">
+                                            CartoDB API implementiert.</a> </p>
                                 </article>
                             </li>
                         </ul>
