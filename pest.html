@@ -10,7 +10,24 @@
     <link rel="stylesheet" href="css/plague.css" />
     <script src="js/animation.js"></script>
     <script src="js/torque.full.uncompressed.js"></script>
+    <script src="js/dat.gui.min.js"></script>
     <title>Pest</title>
+    <style>
+        #torque_time{
+            position: relative;
+            display: block;
+            padding-top: 30px;
+            margin-left: 20%;
+            margin-right: auto;
+            font-size: 3em;
+            letter-spacing: 2px;
+            font-weight: bold;
+            font-family: 'Arvo', serif;
+            bottom: 30px;
+            left: 30px;
+           }
+
+    </style>
 </head>
 
 <body class="right-sidebar">
@@ -50,7 +67,9 @@
 
                     <!-- Post -->
                     <article class="box post">
-                        <div class="image featured" id="map"></div>
+
+                        <div class="image featured" id="map">
+                        </div>
                         <nav id="controls">
                             <ul>
                                 <li>
@@ -60,7 +79,25 @@
                                     </button>
                                 </li>
                                 <li>
-                                    Animierte Karte
+                                    Animation starten
+                                </li>
+                                <li>
+
+                                    <button id="pause" class="button_plague" title="Pause">
+                                        <i class="fa fa-pause fa-2x"></i>
+                                    </button>
+                                </li>
+                                <li>
+                                    Pause
+                                </li>
+                                <li>
+
+                                    <button id="play" class="button_plague" title="Abspielen">
+                                        <i class="fa fa-play fa-2x"></i>
+                                    </button>
+                                </li>
+                                <li>
+                                    Weiter
                                 </li>
                                 <li>
                                     <button id="sublayer0" class="button_plague" title="Statische Karte">
@@ -83,9 +120,6 @@
 
                     <!-- Excerpts -->
                     <div id="container">
-                        <div id="torque_time">
-
-                        </div>
                         <img src="img/Sensenmann.png" class="sensenmann">
                     </div>
 
@@ -95,6 +129,7 @@
                             <li>
                                 <!-- Highlight -->
                                 <article class="box highlight">
+                                    <div id="torque_time" class="year"><h3></h3></div>
                                     <header>
                                         <h3>Legende</h3>
                                     </header>

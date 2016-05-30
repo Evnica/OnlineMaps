@@ -9,6 +9,15 @@
     margin-right: auto
 }
 
+.year{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 3em;
+    letter-spacing: 2px;
+    font-style: oblique;
+}
+
 .button_plague {
     font-size: 0.75em;
     letter-spacing: 2px;
