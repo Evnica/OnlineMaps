@@ -13,6 +13,10 @@
     <link rel="stylesheet" href="css/mainDetail.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!--[if lte IE 8]><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+    <script type="text/javascript" src="js/swf/swfobject.js"></script>
+    <script type="text/javascript">
+        swfobject.embedSWF("img/plague_animated.swf", "plague_animated", "350", "140", "9.0.0");
+    </script>
 </head>
 <body>
 
@@ -108,21 +112,22 @@
                     Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
                 <div class="features">
                     <article>
-                        <a href="#" class="image"><img src="img/gesundheit.png" alt="" /></a>
+                        <a href="img/gesundheit.png" class="image"><img src="img/gesundheit.png" alt="" /></a>
                         <div class="inner">
                             <h4>Anfang</h4>
-                            <p>04.04.2016. Projektziel: Erstellung von 3 animierten Karten. Im Rahmen
+                            <p><strong>04.04.2016.</strong> Projektziel: Erstellung von 3 animierten Karten. Im Rahmen
                             des Themas Gesundheit sollen 3 Unterthemen gewählt werden. Aus den ursprünglich gewählten
                             Unterthemen wurde eine akzeptiert (Karte der Einzugsgebiete von Rettungsdienste). Die weiteren sind:
-                               Eine Karte der Pestsäulen und Pestkreuze sowie der Allgemeinmediziner mit ihren Ordinationsszeiten
+                               Eine Karte der Pestsäulen und Pestkreuze sowie der Allgemeinmediziner mit ihren Ordinationsszeiten.
+                                Die Karte der Rettungsdienste wurde als erste erstellt.
                             </p>
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/Map_at_carinthia_topo.png" alt="" /></a>
+                        <a href="img/Map_at_carinthia_topo.png" class="image"><img src="img/Map_at_carinthia_topo.png" alt="" /></a>
                         <div class="inner">
                             <h4 >Daten</h4>
-                            <p>04.04.2016. Karten werden auf folgenden Daten basiert sein:</p>
+                            <p><strong>04.04.2016.</strong> Karten werden auf folgenden Daten basiert sein:</p>
                             <ul>
                                 <li><a href="http://www.gip.gv.at/gipat.html" target="_blank">
                                     GIP</a> - Verkehrsgraph	für die Berechnung der Einzugsgebietspolygone der Rettungsdienste</li>
@@ -140,57 +145,57 @@
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/2maps.png" alt="" /></a>
+                        <a href="img/2maps.png" class="image"><img src="img/2maps.png" alt="" /></a>
                         <div class="inner">
                             <h4>Technische Lösung</h4>
-                            <p>05.04.2016. Als technische Lösung wird eine Online-Karte gewählt, die mit Hilfe von JavaScript animiert ist.
+                            <p><strong>05.04.2016.</strong> Als technische Lösung wird eine Online-Karte gewählt, die mit Hilfe von JavaScript animiert ist.
                                 Die erste Idee war, eine statische Hintergrundkarte zu verwenden und die Objektkoordinaten in
-                                die Bildschirmkoordinaten zu transformieren. Nach der weiteren Analyse wurde entschieden Google Maps als
-                            Hintergrundkarte zu verwenden und mit einer KML-Darstellung der Daten zu arbeiten.</p>
+                                die Bildschirmkoordinaten zu transformieren. Nach der weiteren Analyse wurde es entschieden, Google Maps als
+                            Hintergrundkarte für die Karte der Rettungsdienste zu verwenden, und mit einer KML-Darstellung der Daten zu arbeiten.</p>
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/Fehler_KML.PNG" alt="Fehlerhafte Visualisierung" /></a>
+                        <a href="img/Fehler_KML.PNG" class="image"><img src="img/Fehler_KML.PNG" alt="Fehlerhafte Visualisierung" /></a>
                         <div class="inner">
                             <h4>Erste Schwierigkeiten</h4>
-                            <p>06.04.2016. Die Einzugsgebiete der Rettungsdienste wurden in ArcMap auf Grund von GIP erstellt.
+                            <p><strong>06.04.2016.</strong> Die Einzugsgebiete der Rettungsdienste wurden in ArcMap auf Grund von GIP erstellt.
                                 Die Umwandlung der Polygone in KML wurde von einem Fehler begleitet: die Polygone wurden falsch visualisiert.
                             Als Lösung wurden die Einzugsgebiete als Bilder gespeichert bei denen nur die Eckpunkte Koordinaten haben. </p>
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/icon_rescue.png" alt="" /></a>
+                        <a href="img/icon_rescue.png" class="image"><img src="img/icon_rescue.png" alt="" /></a>
                         <div class="inner">
                             <h4>Prototyp der Karte der Rettungsdienste</h4>
-                            <p>07.04.2016. Die Karte soll die folgenden Steuerungmöglichkeiten anbieten: schrittweises Abspielen, Rückwärtsschritte,
+                            <p><strong>07.04.2016.</strong> Die Karte soll die folgenden Steuerungmöglichkeiten anbieten: schrittweises Abspielen, Rückwärtsschritte,
                             automatisches Abspielen. Zuerst werden die Standorte der Rettungsdienste dargestellt, und danach die einzelnen EZG-Polygone,
                             die mit fortlaufender Zeit größer werden.</p>
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/groundOverlays.png" alt="Image needed" /></a>
+                        <a href="img/groundOverlays.png" class="image"><img src="img/groundOverlays.png" alt="Image needed" /></a>
                         <div class="inner">
                             <h4>KML Layers</h4>
-                            <p>08.04.2016. In der ersten Version der Karte werden die KML-Layer als Datenquelle verwendet.
+                            <p><strong>08.04.2016.</strong> In der ersten Version der Karte werden die KML-Layer als Datenquelle verwendet.
                                 Die große Anzahl der Layers verursacht eine Exception.
                                 Benutzer sehen die Exception nicht, aber man kann nicht genau sagen
                                 zu welchen weiteren Fehler diese führen kann.</p>
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/rettung_legende.png" alt="Image needed" /></a>
+                        <a href="img/rettung_legende.png" class="image"><img src="img/rettung_legende.png" alt="Image needed" /></a>
                         <div class="inner">
                             <h4>KML Layers: Die Reihenfolge der Schichten</h4>
-                            <p>12.04.2016. KML-Layers werden auf der Karte in der Reiehenfolge dargestellt in welcher diese zur Karte hinzugefügt werden.
+                            <p><strong>12.04.2016.</strong> KML-Layers werden auf der Karte in der Reiehenfolge dargestellt in welcher diese zur Karte hinzugefügt werden.
                             Das bedeutet, dass die kleineren Polygone die früher hinzugefügt werden von den größeren überdeckt werden.
                                 Somit werden die 4 Zonen (5, 10, 15 und 20 Minuten) nicht gleichzeitig sichtbar dargestellt.</p>
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/groundOverlays.png" alt="" /></a>
+                        <a href="img/groundOverlays.png" class="image"><img src="img/groundOverlays.png" alt="" /></a>
                         <div class="inner">
                             <h4>GroundOverlay statt KML-Layer</h4>
-                            <p>15.04.2016. Die Schichten sind in der richtigen Reihenfolge visualisiert und
+                            <p><strong>15.04.2016.</strong> Die Schichten sind in der richtigen Reihenfolge visualisiert und
                                 man kann alle Zonen (5, 10, 15 und 20 Minuten) sehen. Mit dem GroundOverlays in der
                                 jetzigen Version ist die frühere Exception nicht aufgetreten. Die Legende ist statisch und das ist zur Zeit annehmbar
                                 aber könnte wenn nötig noch verbessert werden. Da dies nicht zur Hauptfunktionalität gehört,
@@ -198,20 +203,20 @@
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/ourClock.png" alt="" /></a>
+                        <a href="img/ourClock.png" class="image"><img src="img/ourClock.png" alt="" /></a>
                         <div class="inner">
                             <h4>Die Uhr</h4>
-                            <p>22.04.2016. Um den Zeitverlauf zu visualisieren wird eine Uhr verwendet. Jede Sekunde wird ein Sektor auf der Uhr
+                            <p><strong>22.04.2016.</strong> Um den Zeitverlauf zu visualisieren wird eine Uhr verwendet. Jede Sekunde wird ein Sektor auf der Uhr
                             der einer Minute entspricht eingefärbt. Gleichzeitig wird auch ein Polygon welches das Einzugsgebiet für
                             diese Fahrzeit darstellt visualisiert. Die Sektoren auf der Uhr ändern die Farbe von grün bis gelb
                             in Zusammenhang mit den entsprechenden EZG-Polygonen.</p>
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/fontAwesome.png" alt="" /></a>
+                        <a href="img/fontAwesome.png" class="image"><img src="img/fontAwesome.png" alt="" /></a>
                         <div class="inner">
                             <h4>Die Steuerung</h4>
-                            <p>26.04.2016. Zum Visualisierung der Knöpfe, welche die Steuerung gewährleisten, wurden vom
+                            <p><strong>26.04.2016.</strong> Zum Visualisierung der Knöpfe, welche die Steuerung gewährleisten, wurden vom
                             Anfang des Projektes Rasterbilder verwendet. In der neuen Version der Karte wird diese Aufgabe
                             von den Font-Awesome Schriften ausgeführt. Diese Schriften sind kostenlos, frei zugänglich,
                                 skalierbar, werden für die Anwendung in HTML und CSS geeignet und bieten Vektor-Grafik zu
@@ -219,10 +224,10 @@
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/buttons.png" alt="Steuerungsmöglichkeiten" /></a>
+                        <a href="img/buttons.png" class="image"><img src="img/buttons.png" alt="Steuerungsmöglichkeiten" /></a>
                         <div class="inner">
                             <h4>Steuerungsmöglichkeiten</h4>
-                            <p>07.05.2016. Statt “Schritt zurück” wird die “Stop” Funktionalität implementiert.
+                            <p><strong>07.05.2016.</strong> Statt “Schritt zurück” wird die “Stop” Funktionalität implementiert.
                                 Das macht Sinn da das Szenario nur kurz ist
                                 und sich der Ablauf nicht ändert. Das heißt, zum gewünschten Schritt kann man sehr einfach
                                 kommen auch ohne Rückschritte. “Stop” ist hilfreich da man wieder vom Anfang an beginnen kann
@@ -235,13 +240,109 @@
                         </div>
                     </article>
                     <article>
-                        <a href="#" class="image"><img src="img/rettung_beta.png" alt="" /></a>
+                        <a href="img/rettung_beta.png" class="image"><img src="img/rettung_beta.png" alt="" /></a>
                         <div class="inner">
                             <h4>Animierte Karte der Einzugsgebiete von Rettungsdiensten</h4>
-                            <p>20.05.2016. Die neue Version der Karte ist fertig. Man kann das Szenario schrittweise sowie auch voll
+                            <p><strong>20.05.2016.</strong> Die neue Version der Karte ist fertig. Man kann das Szenario schrittweise sowie auch voll
                                 automatisch abspielen. Die Standorte der Rettungsdienste sind noch nicht optimal dargestellt:
                                 die rote Farbe auf dem grünen Hintergrund ist nicht auf jedem Bildschirm gut zu sehen.
                                 Die beiden weiteren Szenarien (Pest und Allgemeinmediziner) sind noch nicht implementiert. </p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="img/LogoCartoDB.png" class="image"><img src="img/LogoCartoDB.png"
+                                                       alt="https://upload.wikimedia.org/wikipedia/commons/7/71/Logooooo.png" />
+                        </a>
+                        <div class="inner">
+                            <h4>CartoDB für die Karte von Auftreten der Pest</h4>
+                            <p><strong>22.05.2016.</strong> Die Karte für das zweite Szenario wurde mit Hilfe von CartoDB API erstellt. Das CartoDB Projekt
+                                wurde 2012 gestartet und bietet vielfältige Möglichkeiten der Gestaltung und Veröffentlichung
+                                der statischen und animierten digitalen Karten. CartoDB ist ein großartiges OpenSource Tool,
+                                das auch ohne Programmierkenntnisse angewandt werden kann. Mehrere Parameter der Darstellung,
+                                zum Beispiel der Hintergrund, die Symbole und die Farben, können einfach geändert werden.
+                                Es gibt auch die Möglichkeit, CartoDB API kostenlos zu verwenden, um noch mehr Steuerungsmöglichkeiten
+                                zu bekommen. Für die Animation ist das wichtig, mit der API zu arbeiten. Sonst ist es nicht möglich,
+                                die Jahreszahlen für jeden Auftritt der Pest darzustellen.
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="img/plague_static.png" class="image"><img src="img/plague_static.png" alt="" /></a>
+                        <div class="inner">
+                            <h4>Auftreten der Pest in Kärnten: mehrschichtige Karte</h4>
+                            <p><strong>24.05.2016.</strong> Diese Karte hat zwei Schichten. Die interaktive Schicht stellt alle Pestdenkmäler dar.
+                                Man kann einzelne Punkte auf der Karte anklicken und die Informationen über den Denkmal bekommen.
+                                Die zweite Schicht ist die animierte steuerbare Darstellung aller Auftritte der Pest von 1348 bis 1734.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="#" class="image">
+                            <div id="plague_animated">
+                                <p>Leider wird die Animierte Karte in SWF Format nicht von allen Flash Player abgespielt.
+                                 Versuchen Sie eine neuere Version zu installieren. </p>
+                            </div>
+                        </a>
+                        <div class="inner">
+                            <h4>Auftreten der Pest in Kärnten: Animation</h4>
+                            <p><strong>29.05.2016</strong> Mit Hilfe der CartoDB API wurde die Animation für die zweite
+                                Schicht der Karte implementiert.
+                            Die Standardzeitleiste ist nicht optimal für die vorhandenen Daten, da Auftritte der Pest nicht
+                            regelmäßig sind. Um die Jahreszeile für jeden Auftritt zu zeigen, werden die CartoDB API
+                            Methoden angewandt. Die Flash Version der Karte ist links angegeben. Sie ist mittels der Open
+                            Source JavaScript Framework <a href="https://github.com/swfobject/swfobject" target="_blank">
+                             swfobject</a> hier eingebettet.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <iframe class="image" src="http://www.youtube.com/embed/Csn1-9f7ibw">
+                        </iframe>
+                        <div class="inner">
+                            <h4>Videokarte von Ordinationszeiten der Augenärzte</h4>
+                            <p>31.05.2016. Die letzte animierte Karte ist die Karte der Augenärzte. Diese Karte wird im Videoformat
+                                implementiert. Jetzt ist die Testversion fertig. In den nächsten Tagen sollen alle drei Karten
+                                ferig sein.</p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="img/plague-controls.png" class="image"><img src="img/plague-controls.png" alt="" /></a>
+                        <div class="inner">
+                            <h4>Auftreten der Pest in Kärnten: Steuerung der Animation</h4>
+                            <p><strong>01.06.2016</strong>. Die Steuerung der animierten Karte wurde optimiert. Jetzt gibt es
+                            drei Buttons, ein von denen dynamisch ist.
+                            <br><i class="fa fa-map-o fa-2x"></i> - Dient dafür, um die interaktive Schicht ein- und auszublenden
+                            <br><i class="fa fa-video-camera fa-2x"></i> - Macht die animierte Schicht sichtbar und
+                                startet die Animation
+                            <br><i id="dynamic_fontawesome" class="fa fa-pause fa-2x"></i> - Haltet dia Animation an und
+                                ändert sich auf <i class="fa fa-forward fa-2x"></i>. Wenn man diesen Button anklickt, wird der
+                                    Anfangszustand wiederhergestellt.
+                            </p>
+                        </div>
+                    </article>
+                    <article>
+                        <a href="" class="image"><img src="" alt="" /></a>
+                        <div class="inner">
+                            <h4>Auftreten der Pest in Kärnten: Änderungen</h4>
+                            <p><strong>01.06.2016</strong>. Nach der Besprechung des Projektzustands wurden die folgenden
+                                Änderungen vorgeschlagt:
+                                <ul>
+                            <li>
+                                Die statische Schicht der Karte vom Pestauftreten soll nur diejenige Punkte enthalten,
+                                die Denkmäler, die an die Pest erinnern, darstellen.
+                            </li>
+                            <li>
+                                Die Karten sollen eine Taste enthalten, die den uhrsprunglichen Kartenmaßstab wiederherstellt.
+                            </li>
+                            <li>
+                                Die Farben der Polygone, die Einzugsgebiete der Rettungsdienste darstellen, sollen für
+                                den Biemer angepasst werden.
+                            </li>
+                            <li>
+                                Der Hintergrund oder die Symbole auf der Karte des Auftretens von Pest sollen für
+                                den Biemer angepasst werden.
+                            </li>
+                        </ul>
+
+                            </p>
                         </div>
                     </article>
                 </div>
@@ -262,354 +363,6 @@
                     Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
             </div>
         </section>
-
-        <!-- Five -->
-        <!--
-            <section id="five">
-                <div class="container">
-                    <h3>Elements</h3>
-
-                    <section>
-                        <h4>Text</h4>
-                        <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-                        This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-                        This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-                        <hr />
-                        <header>
-                            <h4>Heading with a Subtitle</h4>
-                            <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-                        </header>
-                        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-                        <header>
-                            <h5>Heading with a Subtitle</h5>
-                            <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-                        </header>
-                        <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-                        <hr />
-                        <h2>Heading Level 2</h2>
-                        <h3>Heading Level 3</h3>
-                        <h4>Heading Level 4</h4>
-                        <h5>Heading Level 5</h5>
-                        <h6>Heading Level 6</h6>
-                        <hr />
-                        <h5>Blockquote</h5>
-                        <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-                        <h5>Preformatted</h5>
-                        <pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-                    </section>
-
-                    <section>
-                        <h4>Lists</h4>
-                        <div class="row">
-                            <div class="6u 12u(xsmall)">
-                                <h5>Unordered</h5>
-                                <ul>
-                                    <li>Dolor pulvinar etiam magna etiam.</li>
-                                    <li>Sagittis adipiscing lorem eleifend.</li>
-                                    <li>Felis enim feugiat dolore viverra.</li>
-                                </ul>
-                                <h5>Alternate</h5>
-                                <ul class="alt">
-                                    <li>Dolor pulvinar etiam magna etiam.</li>
-                                    <li>Sagittis adipiscing lorem eleifend.</li>
-                                    <li>Felis enim feugiat dolore viverra.</li>
-                                </ul>
-                            </div>
-                            <div class="6u 12u(xsmall)">
-                                <h5>Ordered</h5>
-                                <ol>
-                                    <li>Dolor pulvinar etiam magna etiam.</li>
-                                    <li>Etiam vel felis at lorem sed viverra.</li>
-                                    <li>Felis enim feugiat dolore viverra.</li>
-                                    <li>Dolor pulvinar etiam magna etiam.</li>
-                                    <li>Etiam vel felis at lorem sed viverra.</li>
-                                    <li>Felis enim feugiat dolore viverra.</li>
-                                </ol>
-                                <h5>Icons</h5>
-                                <ul class="icons">
-                                    <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                                    <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                                    <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                                    <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-                                    <li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-                                    <li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <h5>Actions</h5>
-                        <ul class="actions">
-                            <li><a href="#" class="button special">Default</a></li>
-                            <li><a href="#" class="button">Default</a></li>
-                            <li><a href="#" class="button alt">Default</a></li>
-                        </ul>
-                        <ul class="actions small">
-                            <li><a href="#" class="button special small">Small</a></li>
-                            <li><a href="#" class="button small">Small</a></li>
-                            <li><a href="#" class="button alt small">Small</a></li>
-                        </ul>
-                        <div class="row">
-                            <div class="3u 6u(medium) 12u$(xsmall)">
-                                <ul class="actions vertical">
-                                    <li><a href="#" class="button special">Default</a></li>
-                                    <li><a href="#" class="button">Default</a></li>
-                                    <li><a href="#" class="button alt">Default</a></li>
-                                </ul>
-                            </div>
-                            <div class="3u 6u$(medium) 12u$(xsmall)">
-                                <ul class="actions vertical small">
-                                    <li><a href="#" class="button special small">Small</a></li>
-                                    <li><a href="#" class="button small">Small</a></li>
-                                    <li><a href="#" class="button alt small">Small</a></li>
-                                </ul>
-                            </div>
-                            <div class="3u 6u(medium) 12u$(xsmall)">
-                                <ul class="actions vertical">
-                                    <li><a href="#" class="button special fit">Default</a></li>
-                                    <li><a href="#" class="button fit">Default</a></li>
-                                    <li><a href="#" class="button alt fit">Default</a></li>
-                                </ul>
-                            </div>
-                            <div class="3u 6u$(medium) 12u$(xsmall)">
-                                <ul class="actions vertical small">
-                                    <li><a href="#" class="button special small fit">Small</a></li>
-                                    <li><a href="#" class="button small fit">Small</a></li>
-                                    <li><a href="#" class="button alt small fit">Small</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section>
-                        <h4>Table</h4>
-                        <h5>Default</h5>
-                        <div class="table-wrapper">
-                            <table>
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Item One</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Two</td>
-                                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Three</td>
-                                        <td> Morbi faucibus arcu accumsan lorem.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Four</td>
-                                        <td>Vitae integer tempus condimentum.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Five</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <td colspan="2"></td>
-                                        <td>100.00</td>
-                                    </tr>
-                                </tfoot>
-                            </table>
-                        </div>
-
-                        <h5>Alternate</h5>
-                        <div class="table-wrapper">
-                            <table class="alt">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Description</th>
-                                        <th>Price</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Item One</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Two</td>
-                                        <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Three</td>
-                                        <td> Morbi faucibus arcu accumsan lorem.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Four</td>
-                                        <td>Vitae integer tempus condimentum.</td>
-                                        <td>19.99</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Item Five</td>
-                                        <td>Ante turpis integer aliquet porttitor.</td>
-                                        <td>29.99</td>
-                                    </tr>
-                                </tbody>
-                                <tfoot>
-                                    <tr>
-                                        <td colspan="2"></td>
-                                        <td>100.00</td>
-                                    </tr>
-                                </tfoot>
-                            </table>
-                        </div>
-                    </section>
-
-                    <section>
-                        <h4>Buttons</h4>
-                        <ul class="actions">
-                            <li><a href="#" class="button special">Special</a></li>
-                            <li><a href="#" class="button">Default</a></li>
-                            <li><a href="#" class="button alt">Alternate</a></li>
-                        </ul>
-                        <ul class="actions">
-                            <li><a href="#" class="button special big">Big</a></li>
-                            <li><a href="#" class="button">Default</a></li>
-                            <li><a href="#" class="button alt small">Small</a></li>
-                        </ul>
-                        <ul class="actions fit">
-                            <li><a href="#" class="button special fit">Fit</a></li>
-                            <li><a href="#" class="button fit">Fit</a></li>
-                            <li><a href="#" class="button alt fit">Fit</a></li>
-                        </ul>
-                        <ul class="actions fit small">
-                            <li><a href="#" class="button special fit small">Fit + Small</a></li>
-                            <li><a href="#" class="button fit small">Fit + Small</a></li>
-                            <li><a href="#" class="button alt fit small">Fit + Small</a></li>
-                        </ul>
-                        <ul class="actions">
-                            <li><a href="#" class="button special icon fa-download">Icon</a></li>
-                            <li><a href="#" class="button icon fa-download">Icon</a></li>
-                            <li><a href="#" class="button alt icon fa-check">Icon</a></li>
-                        </ul>
-                        <ul class="actions">
-                            <li><span class="button special disabled">Special</span></li>
-                            <li><span class="button disabled">Default</span></li>
-                            <li><span class="button alt disabled">Alternate</span></li>
-                        </ul>
-                    </section>
-
-                    <section>
-                        <h4>Form</h4>
-                        <form method="post" action="#">
-                            <div class="row uniform">
-                                <div class="6u 12u(xsmall)">
-                                    <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-                                </div>
-                                <div class="6u 12u(xsmall)">
-                                    <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-                                </div>
-                            </div>
-                            <div class="row uniform">
-                                <div class="12u">
-                                    <div class="select-wrapper">
-                                        <select name="demo-category" id="demo-category">
-                                            <option value="">- Category -</option>
-                                            <option value="1">Manufacturing</option>
-                                            <option value="1">Shipping</option>
-                                            <option value="1">Administration</option>
-                                            <option value="1">Human Resources</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row uniform">
-                                <div class="4u 12u(medium)">
-                                    <input type="radio" id="demo-priority-low" name="demo-priority" checked>
-                                    <label for="demo-priority-low">Low Priority</label>
-                                </div>
-                                <div class="4u 12u(medium)">
-                                    <input type="radio" id="demo-priority-normal" name="demo-priority">
-                                    <label for="demo-priority-normal">Normal Priority</label>
-                                </div>
-                                <div class="4u 12u(medium)">
-                                    <input type="radio" id="demo-priority-high" name="demo-priority">
-                                    <label for="demo-priority-high">High Priority</label>
-                                </div>
-                            </div>
-                            <div class="row uniform">
-                                <div class="6u 12u(medium)">
-                                    <input type="checkbox" id="demo-copy" name="demo-copy">
-                                    <label for="demo-copy">Email me a copy of this message</label>
-                                </div>
-                                <div class="6u 12u(medium)">
-                                    <input type="checkbox" id="demo-human" name="demo-human" checked>
-                                    <label for="demo-human">I am a human and not a robot</label>
-                                </div>
-                            </div>
-                            <div class="row uniform">
-                                <div class="12u">
-                                    <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-                                </div>
-                            </div>
-                            <div class="row uniform">
-                                <div class="12u">
-                                    <ul class="actions">
-                                        <li><input type="submit" value="Send Message" /></li>
-                                        <li><input type="reset" value="Reset" class="alt" /></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </form>
-                    </section>
-
-                    <section>
-                        <h4>Image</h4>
-                        <h5>Fit</h5>
-                        <span class="image fit"><img src="img/banner.jpg" alt="" /></span>
-                        <div class="box alt">
-                            <div class="row 50% uniform">
-                                <div class="4u"><span class="image fit"><img src="img/pic01.jpg" alt="" /></span></div>
-                                <div class="4u"><span class="image fit"><img src="img/pic02.jpg" alt="" /></span></div>
-                                <div class="4u"><span class="image fit"><img src="img/pic03.jpg" alt="" /></span></div>
-                            </div>
-                            <div class="row 50% uniform">
-                                <div class="4u"><span class="image fit"><img src="img/pic02.jpg" alt="" /></span></div>
-                                <div class="4u"><span class="image fit"><img src="img/pic03.jpg" alt="" /></span></div>
-                                <div class="4u"><span class="image fit"><img src="img/pic01.jpg" alt="" /></span></div>
-                            </div>
-                            <div class="row 50% uniform">
-                                <div class="4u"><span class="image fit"><img src="img/pic03.jpg" alt="" /></span></div>
-                                <div class="4u"><span class="image fit"><img src="img/pic01.jpg" alt="" /></span></div>
-                                <div class="4u"><span class="image fit"><img src="img/pic02.jpg" alt="" /></span></div>
-                            </div>
-                        </div>
-                        <h5>Left &amp; Right</h5>
-                        <p><span class="image left"><img src="img/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                        <p><span class="image right"><img src="img/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-                    </section>
-
-                </div>
-            </section>
-        -->
-
     </div>
 
     <!-- Footer -->
