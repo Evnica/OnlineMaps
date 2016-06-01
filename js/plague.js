@@ -109,92 +109,52 @@ function initialize() {
         }
         else if (changes.step === torqueLayer.provider.getSteps()-27) {
 
-            document.getElementById('torque_time').innerHTML = '1365';
+            runningPoints();
         }
-        else if (changes.step === torqueLayer.provider.getSteps()-26) {
-
-            document.getElementById('torque_time').innerHTML = '1382';
+        else if (changes.step === torqueLayer.provider.getSteps()-26 ||
+                 changes.step === torqueLayer.provider.getSteps()-25 ||
+                 changes.step === torqueLayer.provider.getSteps()-24 ||
+                 changes.step === torqueLayer.provider.getSteps()-23 ||
+                 changes.step === torqueLayer.provider.getSteps()-22 ||
+                 changes.step === torqueLayer.provider.getSteps()-21 ||
+                 changes.step === torqueLayer.provider.getSteps()-20 ||
+                 changes.step === torqueLayer.provider.getSteps()-18 ||
+                 changes.step === torqueLayer.provider.getSteps()-16 ||
+                 changes.step === torqueLayer.provider.getSteps()-15 ||
+                 changes.step === torqueLayer.provider.getSteps()-14 ||
+                 changes.step === torqueLayer.provider.getSteps()-12 ||
+                 changes.step === torqueLayer.provider.getSteps()-10 ||
+                 changes.step === torqueLayer.provider.getSteps()-8 ||
+                 changes.step === torqueLayer.provider.getSteps()-6
+                ) 
+        {
+            runningPoints();
         }
-        else if (changes.step === torqueLayer.provider.getSteps()-25) {
-
-            document.getElementById('torque_time').innerHTML = '1399';
-        }
-        else if (changes.step === torqueLayer.provider.getSteps()-24) {
-
-            document.getElementById('torque_time').innerHTML = '1416';
-        }
-        else if (changes.step === torqueLayer.provider.getSteps()-23) {
-
-            document.getElementById('torque_time').innerHTML = '1433';
-        }
-        else if (changes.step === torqueLayer.provider.getSteps()-22) {
-
-            document.getElementById('torque_time').innerHTML = '1450';
-        }
-        else if (changes.step === torqueLayer.provider.getSteps()-21) {
-
-            document.getElementById('torque_time').innerHTML = '1467';
-        }
-        else if (changes.step === torqueLayer.provider.getSteps()-20) {
-
-            document.getElementById('torque_time').innerHTML = '1484';
-        }
+        
         else if (changes.step === torqueLayer.provider.getSteps()-19) {
 
             document.getElementById('torque_time').innerHTML = '1500';
-        }
-        else if (changes.step === torqueLayer.provider.getSteps()-18) {
-
-            document.getElementById('torque_time').innerHTML = '1512';
         }
         else if (changes.step === torqueLayer.provider.getSteps()-17) {
 
             document.getElementById('torque_time').innerHTML = '1523';
         }
-        else if (changes.step === torqueLayer.provider.getSteps()-16) {
-
-            document.getElementById('torque_time').innerHTML = '1534';
-        }
-        else if (changes.step === torqueLayer.provider.getSteps()-15) {
-
-            document.getElementById('torque_time').innerHTML = '1545';
-        }
-        else if (changes.step === torqueLayer.provider.getSteps()-14) {
-
-            document.getElementById('torque_time').innerHTML = '1556';
-        }
         else if (changes.step === torqueLayer.provider.getSteps()-13) {
 
             document.getElementById('torque_time').innerHTML = '1567';
-            setTimeout(function(){document.getElementById('torque_time').innerHTML = '1571'}, 300);
-        }
-        else if (changes.step === torqueLayer.provider.getSteps()-12) {
-
-            document.getElementById('torque_time').innerHTML = '1584';
+            setTimeout(function(){document.getElementById('torque_time').innerHTML = '1571'}, 500);
         }
         else if (changes.step === torqueLayer.provider.getSteps()-11) {
 
             document.getElementById('torque_time').innerHTML = '1601';
         }
-        else if (changes.step === torqueLayer.provider.getSteps()-10) {
-
-            document.getElementById('torque_time').innerHTML = '1615';
-        }
         else if (changes.step === torqueLayer.provider.getSteps()-9) {
 
             document.getElementById('torque_time').innerHTML = '1628';
         }
-        else if (changes.step === torqueLayer.provider.getSteps()-8) {
-
-            document.getElementById('torque_time').innerHTML = '1641';
-        }
         else if (changes.step === torqueLayer.provider.getSteps()-7) {
 
             document.getElementById('torque_time').innerHTML = '1654';
-        }
-        else if (changes.step === torqueLayer.provider.getSteps()-6) {
-
-            document.getElementById('torque_time').innerHTML = '1667';
         }
         else if (changes.step === torqueLayer.provider.getSteps()-5) {
 
@@ -208,6 +168,8 @@ function initialize() {
         else if (changes.step === torqueLayer.provider.getSteps()-3) {
 
             document.getElementById('torque_time').innerHTML = '1685';
+            setTimeout(function(){document.getElementById('torque_time').innerHTML = '.'}, 240);
+            setTimeout(function(){document.getElementById('torque_time').innerHTML = '..'}, 480);
         }
         else if (changes.step === torqueLayer.provider.getSteps()-2) {
 
@@ -223,6 +185,13 @@ function initialize() {
 
     torqueLayer.addTo(map_object);
     torqueLayer.hide();
+}
+
+function runningPoints() {
+                          document.getElementById('torque_time').innerHTML = '.';
+    setTimeout(function(){document.getElementById('torque_time').innerHTML = '..'}, 240);
+    setTimeout(function(){document.getElementById('torque_time').innerHTML = '...'}, 480);
+    setTimeout(function(){document.getElementById('torque_time').innerHTML = '....'}, 720);
 }
 
 function clear()
