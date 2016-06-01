@@ -41,7 +41,7 @@
                 <!--<a href="index.html"> PEST: 1348-1734</a>-->
                 <img src="img/pest.png" alt="PEST: 1348-1734">
             </h1>
-            <p>Animierte Darstellung der Verbreitung der Pest in Kärnten</p>
+            <p>Animierte Darstellung vom Auftreten der Pest in Kärnten</p>
 
             <!-- Nav -->
             <nav id="nav">
@@ -73,39 +73,30 @@
                         <nav id="controls">
                             <ul>
                                 <li>
-
-                                    <button id="torqueLayer" class="button_plague" title="Animierte Karte">
-                                        <i class="fa fa-video-camera fa-2x"></i>
-                                    </button>
-                                </li>
-                                <li>
-                                    Animation starten
-                                </li>
-                                <li>
-
-                                    <button id="pause" class="button_plague" title="Pause">
-                                        <i class="fa fa-pause fa-2x"></i>
-                                    </button>
-                                </li>
-                                <li>
-                                    Pause
-                                </li>
-                                <li>
-
-                                    <button id="play" class="button_plague" title="Abspielen">
-                                        <i class="fa fa-forward fa-2x"></i>
-                                    </button>
-                                </li>
-                                <li>
-                                    Weiter
-                                </li>
-                                <li>
-                                    <button id="sublayer0" class="button_plague" title="Statische Karte">
+                                    <button id="static" class="button_plague">
                                         <i class="fa fa-map-o fa-2x"></i>
                                     </button>
                                 </li>
                                 <li>
                                     Statische Karte
+                                </li>
+                                <li>
+
+                                    <button id="torqueLayer" class="button_plague">
+                                        <i class="fa fa-video-camera fa-2x"></i>
+                                    </button>
+                                </li>
+                                <li>
+                                    Animierte Karte
+                                </li>
+                                <li>
+
+                                    <button id="pause" class="button_plague">
+                                        <i id="dynamic_fontawesome" class="fa fa-pause fa-2x"></i>
+                                    </button>
+                                </li>
+                                <li id="dynamic_button_description">
+                                    Pause
                                 </li>
                             </ul>
                         </nav>
@@ -133,7 +124,7 @@
                                     <header>
                                         <h3>Legende</h3>
                                     </header>
-                                    <a href="#" class="image left"><img src="img/legend_plague.png" alt="Legende" /></a>
+                                    <a href="#" class="image left"><img src="img/legend_plague.png" id = "legend" alt="Legende" /></a>
                                     <p>Für die Analyse werden die <a href="https://www.data.gv.at/">offenen Daten </a>
                                         verwendet. Die Karte wird mit Hilfe der
                                         <a target="_blank" href = "https://docs.cartodb.com/cartodb-platform/cartodb-js/">

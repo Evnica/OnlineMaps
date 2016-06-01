@@ -233,16 +233,25 @@ function clear()
     torqueLayerShown = false;
 }
 
-function addTimeSlider(layer) {
-    
-}
 
 var sublayer0Shown = true;
 //bind a toggle function for the static content on the button
-$("#sublayer0").on('click', function() {
+$("#static").on('click', function() {
     if (sublayer0Shown) {
         sublayers[0].hide();
+        if (torqueLayerShown)
+        {
+            document.getElementById("legend").src="img/legend_plague_anim.png";
+        }
     } else {
+        if (torqueLayerShown)
+        {
+            document.getElementById("legend").src="img/legend_plague_both.png";
+        }
+        else
+        {
+            document.getElementById("legend").src="img/legend_plague.png";
+        }
         sublayers[0].show();
     }
     sublayer0Shown = !sublayer0Shown;
@@ -254,9 +263,21 @@ var torqueLayerPlaying = false;
 //bind a toggle function for the static content on the button
 $("#torqueLayer").on('click', function() {
     if (torqueLayerShown) {
+        if (sublayer0Shown)
+        {
+            document.getElementById("legend").src="img/legend_plague.png";
+        }
         torqueLayer.hide();
         torqueLayer.stop();
     } else {
+        if (sublayer0Shown)
+        {
+            document.getElementById("legend").src="img/legend_plague_both.png";
+        }
+        else
+        {
+            document.getElementById("legend").src="img/legend_plague_anim.png";
+        }
         torqueLayer.show();
         torqueLayer.play();
         torqueLayerPlaying = true;
@@ -265,15 +286,29 @@ $("#torqueLayer").on('click', function() {
 });
 
 $("#pause").on('click', function() {
-    if (torqueLayerShown && torqueLayerPlaying) {
-        torqueLayer.pause();
-        torqueLayerPlaying = false;
+    if (torqueLayerShown)
+    {
+        if (torqueLayerPlaying)
+        {
+            torqueLayer.pause();
+            $( "#pause" ).html('<i id="dynamic_fontawesome" class="fa fa-forward fa-2x"></i>');
+            document.getElementById('dynamic_button_description').innerHTML = "Animation weiter abspielen";
+            torqueLayerPlaying = false;
+        }
+        else 
+        {
+            torqueLayer.play();
+            $( "#pause" ).html('<i id="dynamic_fontawesome" class="fa fa-pause fa-2x"></i>');
+            document.getElementById('dynamic_button_description').innerHTML = "Pause";
+            torqueLayerPlaying = true;
+        }
     }
 });
+/*
 
 $("#play").on('click', function() {
     if (torqueLayerShown && !torqueLayerPlaying) {
         torqueLayer.play();
         torqueLayerPlaying = true;
     }
-});
+});*/
