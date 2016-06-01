@@ -7,6 +7,7 @@ var map,
     playing = false,
     kmlOptions,
     lastAddedOverlay;
+var startedFromPlay = false;
 var images = [  "http://evnica.com/kml/img/1min.png",
                 "http://evnica.com/kml/img/2min.png",
                 "http://evnica.com/kml/img/3min.png",
@@ -240,18 +241,21 @@ function stepForward()
     }
     else
     {
+        if (!startedFromPlay)
+        {
         clearInterval(window.canvasTimer);
         context.clearRect(0, 0, 150, 150);
         resetMap();
         index = 0;
         playing = false;
+        }
     }
 }
 
 
 function play() 
 {
-
+    startedFromPlay = true;
     if (!playing) {
         playing = true;
         window.canvasTimer = setInterval(stepForward, 1000);
@@ -264,6 +268,7 @@ function resetMap() {
         groundOverlays[i].setMap(null);
     }
     rescueStations.setMap(null);
+    startedFromPlay = false;
 }
 
 function pause() {
