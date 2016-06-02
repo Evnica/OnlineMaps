@@ -57,7 +57,10 @@ var options = {
     zoomControl: true,
     center: [46.77796299949992, 13.872985839843748],
     zoom: 9,
-    cartodb_logo: true
+    maxZoom: 11,
+    minZoom: 7,
+    cartodb_logo: true,
+    scrollwheel: false
 };
 
 window.onload = function () {
@@ -187,6 +190,14 @@ function initialize() {
     torqueLayer.hide();
 }
 
+function backToNormal() {
+    map_object.set({
+        center: [46.77796299949992, 13.872985839843748],
+        zoom: 9
+    })
+
+}
+
 function runningPoints() {
                           document.getElementById('torque_time').innerHTML = '.';
     setTimeout(function(){document.getElementById('torque_time').innerHTML = '..'}, 240);
@@ -254,6 +265,8 @@ $("#torqueLayer").on('click', function() {
     torqueLayerShown = !torqueLayerShown;
 });
 
+$("#zoomBack").on('click', backToNormal());
+
 $("#pause").on('click', function() {
     if (torqueLayerShown)
     {
@@ -261,7 +274,7 @@ $("#pause").on('click', function() {
         {
             torqueLayer.pause();
             $( "#pause" ).html('<i id="dynamic_fontawesome" class="fa fa-forward fa-2x"></i>');
-            document.getElementById('dynamic_button_description').innerHTML = "Animation weiter abspielen";
+            document.getElementById('dynamic_button_description').innerHTML = "Weiter abspielen";
             torqueLayerPlaying = false;
         }
         else 
