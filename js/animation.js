@@ -203,6 +203,11 @@ function initMap()
     var kmlLayerFrame = new google.maps.KmlLayer("http://evnica.com/kml/frameDark.kmz", kmlOptions);
     var kmlLayerBorder = new google.maps.KmlLayer("http://evnica.com/kml/kaernten.kml", kmlOptions);
     prepareTheClock();
+
+    $('#reset').click(function(){
+        map.setZoom(9);
+        map.setCenter({lat: 46.75, lng: 13.87});
+    });
 }
 
 function stepForward()
