@@ -188,14 +188,10 @@ function initialize() {
 
     torqueLayer.addTo(map_object);
     torqueLayer.hide();
-}
 
-function backToNormal() {
-    map_object.set({
-        center: [46.77796299949992, 13.872985839843748],
-        zoom: 9
-    })
-
+    $('#reset').click(function(){
+        map_object.setView([46.77796299949992, 13.872985839843748],9);
+    });
 }
 
 function runningPoints() {
@@ -212,7 +208,6 @@ function clear()
     torqueLayer.hide();
     torqueLayerShown = false;
 }
-
 
 var sublayer0Shown = true;
 //bind a toggle function for the static content on the button
@@ -237,7 +232,6 @@ $("#static").on('click', function() {
     sublayer0Shown = !sublayer0Shown;
 });
 
-
 var torqueLayerShown = false;
 var torqueLayerPlaying = false;
 //bind a toggle function for the static content on the button
@@ -247,8 +241,12 @@ $("#torqueLayer").on('click', function() {
         {
             document.getElementById("legend").src="img/legend_plague.png";
         }
+        setTimeout(function () {document.getElementById('torque_time').innerHTML = ''}, 900);
+        $( "#pause" ).html('<i id="dynamic_fontawesome" class="fa fa-pause fa-2x"></i>');
+        document.getElementById('dynamic_button_description').innerHTML = "Pause";
         torqueLayer.hide();
         torqueLayer.stop();
+        torqueLayerPlaying = false;
     } else {
         if (sublayer0Shown)
         {
@@ -264,8 +262,6 @@ $("#torqueLayer").on('click', function() {
     }
     torqueLayerShown = !torqueLayerShown;
 });
-
-$("#zoomBack").on('click', backToNormal());
 
 $("#pause").on('click', function() {
     if (torqueLayerShown)
@@ -294,3 +290,4 @@ $("#play").on('click', function() {
         torqueLayerPlaying = true;
     }
 });*/
+

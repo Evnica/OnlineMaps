@@ -1894,7 +1894,7 @@ button.alt:active,
 
     #controls > ul > li {
         display: inline-block;
-        padding-right: 2em;
+        padding-right: 1em;
     }
 
     #nav > ul > li:last-child {
