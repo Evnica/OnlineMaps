@@ -84,6 +84,7 @@ function initialize() {
         .done(function(layer) {
             for (var i = 0; i < layer.getSubLayerCount(); i++) {
                 sublayers[i] = layer.getSubLayer(i);
+                sublayers[i].infowindow.set('template', $('#infowindow_template').html());
             }
         })
         //if not created, log error
