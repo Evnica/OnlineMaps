@@ -122,8 +122,9 @@
                             <p><strong>04.04.2016.</strong> Projektziel: Erstellung von 3 animierten Karten. Im Rahmen
                             des Themas Gesundheit sollen 3 Unterthemen gewählt werden. Aus den ursprünglich gewählten
                             Unterthemen wurde eine akzeptiert (Karte der Einzugsgebiete von Rettungsdienste). Die weiteren sind:
-                               Eine Karte der Pestsäulen und Pestkreuze sowie der Allgemeinmediziner mit ihren Ordinationsszeiten.
-                                Die Karte der Rettungsdienste wurde als erste erstellt.
+                            Eine Karte der Pestsäulen und Pestkreuze sowie das Auftreten der Pest im zeitlichen Verlauf, 
+							sowie eine Karte der Augenärzte mit ihren Ordinationsszeiten.
+                            Zu Beginn wurde die Karte der Rettungsdienste erstellt.
                             </p>
                         </div>
                     </article>
@@ -131,11 +132,11 @@
                         <a href="img/Map_at_carinthia_topo.png" class="image"><img src="img/Map_at_carinthia_topo.png" alt="" /></a>
                         <div class="inner">
                             <h4 >Daten</h4>
-                            <p><strong>04.04.2016.</strong> Karten werden auf folgenden Daten basiert sein:</p>
+                            <p><strong>04.04.2016.</strong>  Die Karten basieren auf folgenden Daten:</p>
                             <ul>
                                 <li><a href="http://www.gip.gv.at/gipat.html" target="_blank">
                                     GIP</a> - Verkehrsgraph	für die Berechnung der Einzugsgebietspolygone der Rettungsdienste</li>
-                                <li>Punktdatensatz mit den <a href="http://www.kgkk.at" target="_blank">Standorten der Allgemeinmediziner</a>
+                                <li>Punktdatensatz mit den <a href="http://www.kgkk.at" target="_blank">Standorten der Augenärzte</a>
                                     mit den jeweiligen Öffnungszeiten</li>
                                 <li>Punktdatensatz mit den <a href="http://www.kgkk.at" target="_blank">
                                     Standorten von Rettungsdienststationen</a></li>
@@ -152,17 +153,17 @@
                         <a href="img/2maps.png" class="image"><img src="img/2maps.png" alt="" /></a>
                         <div class="inner">
                             <h4>Technische Lösung</h4>
-                            <p><strong>05.04.2016.</strong> Als technische Lösung wird eine Online-Karte gewählt, die mit Hilfe von JavaScript animiert ist.
+                            <p><strong>05.04.2016.</strong> Als technische Lösung wurde eine Online-Karte gewählt, die mit Hilfe von JavaScript animiert ist.
                                 Die erste Idee war, eine statische Hintergrundkarte zu verwenden und die Objektkoordinaten in
-                                die Bildschirmkoordinaten zu transformieren. Nach der weiteren Analyse wurde es entschieden, Google Maps als
-                            Hintergrundkarte für die Karte der Rettungsdienste zu verwenden, und mit einer KML-Darstellung der Daten zu arbeiten.</p>
+                                die Bildschirmkoordinaten zu transformieren. Nach der weiteren Analyse wurde entschieden, Google Maps als
+                            Hintergrundkarte für die Karte der Rettungsdienste zu verwenden und mit einer KML-Darstellung der Daten zu arbeiten.</p>
                         </div>
                     </article>
                     <article>
                         <a href="img/Fehler_KML.PNG" class="image"><img src="img/Fehler_KML.PNG" alt="Fehlerhafte Visualisierung" /></a>
                         <div class="inner">
                             <h4>Erste Schwierigkeiten</h4>
-                            <p><strong>06.04.2016.</strong> Die Einzugsgebiete der Rettungsdienste wurden in ArcMap auf Grund von GIP erstellt.
+                            <p><strong>06.04.2016.</strong> Die Einzugsgebiete der Rettungsdienste wurden in ArcMap auf Basis des GIP Netzwerks erstellt.
                                 Die Umwandlung der Polygone in KML wurde von einem Fehler begleitet: die Polygone wurden falsch visualisiert.
                             Als Lösung wurden die Einzugsgebiete als Bilder gespeichert bei denen nur die Eckpunkte Koordinaten haben. </p>
                         </div>
@@ -172,7 +173,7 @@
                         <div class="inner">
                             <h4>Prototyp der Karte der Rettungsdienste</h4>
                             <p><strong>07.04.2016.</strong> Die Karte soll die folgenden Steuerungmöglichkeiten anbieten: schrittweises Abspielen, Rückwärtsschritte,
-                            automatisches Abspielen. Zuerst werden die Standorte der Rettungsdienste dargestellt, und danach die einzelnen EZG-Polygone,
+                            automatisches Abspielen. Zuerst werden die Standorte der Rettungsdienste dargestellt und danach die einzelnen EZG-Polygone,
                             die mit fortlaufender Zeit größer werden.</p>
                         </div>
                     </article>
@@ -183,7 +184,7 @@
                             <p><strong>08.04.2016.</strong> In der ersten Version der Karte werden die KML-Layer als Datenquelle verwendet.
                                 Die große Anzahl der Layers verursacht eine Exception.
                                 Benutzer sehen die Exception nicht, aber man kann nicht genau sagen
-                                zu welchen weiteren Fehler diese führen kann.</p>
+                                zu welchen weiteren Fehler diese führen könnte.</p>
                         </div>
                     </article>
                     <article>
@@ -199,10 +200,10 @@
                         <a href="img/groundOverlays.png" class="image"><img src="img/groundOverlays.png" alt="" /></a>
                         <div class="inner">
                             <h4>GroundOverlay statt KML-Layer</h4>
-                            <p><strong>15.04.2016.</strong> Die Schichten sind in der richtigen Reihenfolge visualisiert und
-                                man kann alle Zonen (5, 10, 15 und 20 Minuten) sehen. Mit dem GroundOverlays in der
-                                jetzigen Version ist die frühere Exception nicht aufgetreten. Die Legende ist statisch und das ist zur Zeit annehmbar
-                                aber könnte wenn nötig noch verbessert werden. Da dies nicht zur Hauptfunktionalität gehört,
+                            <p><strong>15.04.2016.</strong> Die Schichten wurden in der richtigen Reihenfolge visualisiert und
+                                man kann alle Zonen (5, 10, 15 und 20 Minuten) jetzt sehen. Mit dem GroundOverlays in der
+                                jetzigen Version ist die frühere Exception nicht mehr aufgetreten. Die Legende ist statisch und das ist zur Zeit annehmbar
+                                aber könnte wenn notwendig noch überarbeitet werden. Da dies nicht zur Hauptfunktionalität gehört,
                                 wird dies am Ende des Projektes überarbeitet falls noch genügend Zeit vorhanden ist. </p>
                         </div>
                     </article>
@@ -220,10 +221,10 @@
                         <a href="img/fontAwesome.png" class="image"><img src="img/fontAwesome.png" alt="" /></a>
                         <div class="inner">
                             <h4>Die Steuerung</h4>
-                            <p><strong>26.04.2016.</strong> Zum Visualisierung der Knöpfe, welche die Steuerung gewährleisten, wurden vom
+                            <p><strong>26.04.2016.</strong> Zum Visualisieren der Knöpfe, welche die Steuerung gewährleisten wurden am
                             Anfang des Projektes Rasterbilder verwendet. In der neuen Version der Karte wird diese Aufgabe
-                            von den Font-Awesome Schriften ausgeführt. Diese Schriften sind kostenlos, frei zugänglich,
-                                skalierbar, werden für die Anwendung in HTML und CSS geeignet und bieten Vektor-Grafik zu
+                            von Font-Awesome Schriften ausgeführt. Diese Schriften sind kostenlos, frei zugänglich,
+                                skalierbar und sind für die Anwendung in HTML und CSS geeignet und bieten Vektor-Grafiken zu
                              mehreren Themen.</p>
                         </div>
                     </article>
@@ -232,7 +233,7 @@
                         <div class="inner">
                             <h4>Steuerungsmöglichkeiten</h4>
                             <p><strong>07.05.2016.</strong> Statt “Schritt zurück” wird die “Stop” Funktionalität implementiert.
-                                Das macht Sinn da das Szenario nur kurz ist
+                                Das macht mehr Sinn da das Szenario nur kurz ist
                                 und sich der Ablauf nicht ändert. Das heißt, zum gewünschten Schritt kann man sehr einfach
                                 kommen auch ohne Rückschritte. “Stop” ist hilfreich da man wieder vom Anfang an beginnen kann
                                 ohne das Szenario fertig abspielen zu müssen. Rückschritte technisch zu implementieren ist
@@ -248,9 +249,9 @@
                         <div class="inner">
                             <h4>Animierte Karte der Einzugsgebiete von Rettungsdiensten</h4>
                             <p><strong>20.05.2016.</strong> Die neue Version der Karte ist fertig. Man kann das Szenario schrittweise sowie auch voll
-                                automatisch abspielen. Die Standorte der Rettungsdienste sind noch nicht optimal dargestellt:
+                                automatisch abspielen. Die Standorte der Rettungsdienste sind noch nicht optimal dargestellt,
                                 die rote Farbe auf dem grünen Hintergrund ist nicht auf jedem Bildschirm gut zu sehen.
-                                Die beiden weiteren Szenarien (Pest und Allgemeinmediziner) sind noch nicht implementiert. </p>
+                                Die beiden weiteren Szenarien (Pest und Augenärzte) wurden noch nicht implementiert. </p>
                         </div>
                     </article>
                     <article>
@@ -258,41 +259,41 @@
                                                        alt="https://upload.wikimedia.org/wikipedia/commons/7/71/Logooooo.png" />
                         </a>
                         <div class="inner">
-                            <h4>CartoDB für die Karte von Auftreten der Pest</h4>
+                            <h4>CartoDB für die Karte vom Auftreten der Pest</h4>
                             <p><strong>22.05.2016.</strong> Die Karte für das zweite Szenario wurde mit Hilfe von CartoDB API erstellt. Das CartoDB Projekt
-                                wurde 2012 gestartet und bietet vielfältige Möglichkeiten der Gestaltung und Veröffentlichung
-                                der statischen und animierten digitalen Karten. CartoDB ist ein großartiges OpenSource Tool,
-                                das auch ohne Programmierkenntnisse angewandt werden kann. Mehrere Parameter der Darstellung,
-                                zum Beispiel der Hintergrund, die Symbole und die Farben, können einfach geändert werden.
-                                Es gibt auch die Möglichkeit, CartoDB API kostenlos zu verwenden, um noch mehr Steuerungsmöglichkeiten
-                                zu bekommen. Für die Animation ist das wichtig, mit der API zu arbeiten. Sonst ist es nicht möglich,
-                                die Jahreszahlen für jeden Auftritt der Pest darzustellen.
+                                wurde 2012 gestartet und bietet vielfältige Möglichkeiten zur Gestaltung und Veröffentlichung
+                                von statischen und animierten digitalen Karten. CartoDB ist ein großartiges OpenSource Tool
+                                welches auch ohne Programmierkenntnisse angewandt werden kann. Mehrere Parameter der Darstellung,
+                                zum Beispiel der Hintergrund, die Symbole und die Farben können einfach geändert werden.
+                                Es gibt auch die Möglichkeit die CartoDB API kostenlos zu verwenden um noch mehr Steuerungsmöglichkeiten
+                                zu erhalten. Für die Animation ist es von Vorteil mit der API zu arbeiten, ansonsten ist es nicht möglich,
+                                die Jahreszahlen für das Auftreten der Pest darzustellen.
                             </p>
                         </div>
                     </article>
                     <article>
                         <a href="img/plague_static.png" class="image"><img src="img/plague_static.png" alt="" /></a>
                         <div class="inner">
-                            <h4>Auftreten der Pest in Kärnten: mehrschichtige Karte</h4>
-                            <p><strong>24.05.2016.</strong> Diese Karte hat zwei Schichten. Die interaktive Schicht stellt alle Pestdenkmäler dar.
-                                Man kann einzelne Punkte auf der Karte anklicken und die Informationen über den Denkmal bekommen.
-                                Die zweite Schicht ist die animierte steuerbare Darstellung aller Auftritte der Pest von 1348 bis 1734.</p>
+                            <h4>Auftreten der Pest in Kärnten: Mehrschichtige Karte</h4>
+                            <p><strong>24.05.2016.</strong> Diese Karte hat zwei Schichten. Die esrte, die interaktive Schicht, stellt alle Pestdenkmäler dar.
+                                Man kann einzelne Punkte auf der Karte anklicken und erhält Informationen über das Denkmal.
+                                Die zweite Schicht ist die animierte und steuerbare Darstellung des Auftretens der Pest von 1348 bis 1734.</p>
                         </div>
                     </article>
                     <article>
                         <a href="#" class="image">
                             <div id="plague_animated">
                                 <p>Leider wird die Animierte Karte in SWF Format nicht von allen Flash Player abgespielt.
-                                 Versuchen Sie eine neuere Version zu installieren. </p>
+                                 Versuchen Sie eine neuer Version zu installieren. </p>
                             </div>
                         </a>
                         <div class="inner">
                             <h4>Auftreten der Pest in Kärnten: Animation</h4>
                             <p><strong>29.05.2016</strong> Mit Hilfe der CartoDB API wurde die Animation für die zweite
                                 Schicht der Karte implementiert.
-                            Die Standardzeitleiste ist nicht optimal für die vorhandenen Daten, da Auftritte der Pest nicht
-                            regelmäßig sind. Um die Jahreszeile für jeden Auftritt zu zeigen, werden die CartoDB API
-                            Methoden angewandt. Die Flash Version der Karte ist links angegeben. Sie ist mittels der Open
+                            Die Standardzeitleiste ist nicht optimal für die vorhandenen Daten, da das Auftreten der Pest nicht
+                            regelmäßig war. Um die Jahreszahl für jeden Auftritt der Pest zu zeigen, werden CartoDB API
+                            Methoden angewendet. Die Flash Version der Karte ist links angegeben. Sie ist mittels der Open
                             Source JavaScript Framework <a href="https://github.com/swfobject/swfobject" target="_blank">
                              swfobject</a> hier eingebettet.</p>
                         </div>
@@ -301,7 +302,7 @@
                         <iframe class="image" src="http://www.youtube.com/embed/Csn1-9f7ibw">
                         </iframe>
                         <div class="inner">
-                            <h4>Videokarte von Ordinationszeiten der Augenärzte</h4>
+                            <h4>Videokarte von Ordinationszeiten von Augenärzte</h4>
                             <p>31.05.2016. Die letzte animierte Karte ist die Karte der Augenärzte. Diese Karte wird im Videoformat
                                 implementiert. Jetzt ist die Testversion fertig. In den nächsten Tagen sollen alle drei Karten
                                 ferig sein.</p>
@@ -312,12 +313,12 @@
                         <div class="inner">
                             <h4>Auftreten der Pest in Kärnten: Steuerung der Animation</h4>
                             <p><strong>01.06.2016</strong>. Die Steuerung der animierten Karte wurde optimiert. Jetzt gibt es
-                            drei Buttons, ein von denen dynamisch ist.
+                            drei Buttons, ein von denen einer dynamisch ist.
                             <br><i class="fa fa-map-o fa-2x"></i> - Dient dafür, um die interaktive Schicht ein- und auszublenden
                             <br><i class="fa fa-video-camera fa-2x"></i> - Macht die animierte Schicht sichtbar und
                                 startet die Animation
-                            <br><i id="dynamic_fontawesome" class="fa fa-pause fa-2x"></i> - Haltet dia Animation an und
-                                ändert sich auf <i class="fa fa-forward fa-2x"></i>. Wenn man diesen Button anklickt, wird der
+                            <br><i id="dynamic_fontawesome" class="fa fa-pause fa-2x"></i> - Haltet die Animation an und
+                                ändert sich auf <i class="fa fa-forward fa-2x"></i>. Wenn man diesen Button anklickt wird der
                                     Anfangszustand wiederhergestellt.
                             </p>
                         </div>
@@ -326,23 +327,23 @@
                         <a href="" class="image"><img src="img/change.png" alt="" /></a>
                         <div class="inner">
                             <h4>Auftreten der Pest in Kärnten: Änderungen</h4>
-                            <p><strong>01.06.2016</strong>. Nach der Besprechung des Projektzustands wurden die folgenden
-                                Änderungen vorgeschlagt:
+                            <p><strong>01.06.2016</strong>. Nach der Besprechung des Projektstandes wurden die folgenden
+                                Änderungen vorgeschlagen:
                                 <ul>
                             <li>
-                                Die statische Schicht der Karte vom Pestauftreten soll nur diejenige Punkte enthalten,
-                                die Denkmäler, die an die Pest erinnern, darstellen.
+                                Die statische Schicht der Karte vom Auftritt der Pest soll nur die Punkte der Denkmäler enthalten,
+                                die an die Pest erinnern.
                             </li>
                             <li>
-                                Die Karten sollen eine Taste enthalten, die den uhrsprunglichen Kartenmaßstab wiederherstellt.
+                                Die Karten sollen einen Button haben, die den ursprünglichen Kartenmaßstab wiederherstellt.
                             </li>
                             <li>
-                                Die Farben der Polygone, die Einzugsgebiete der Rettungsdienste darstellen, sollen für
-                                den Biemer angepasst werden.
+                                Die Farben der Polygone der Einzugsgebiete von Rettungsdiensten, sollen für
+                                die Darstellung mit Beamer angepasst werden.
                             </li>
                             <li>
-                                Der Hintergrund oder die Symbole auf der Karte des Auftretens von Pest sollen für
-                                den Biemer angepasst werden.
+                                Der Hintergrund und die Symbole der Karte der Pest sollen für
+                                die Darstellung mit Beamer angepasst werden.
                             </li>
                         </ul>
                             </p>
@@ -353,9 +354,9 @@
                         <div class="inner">
                             <h4>Maßstab</h4>
                             <p><strong>02.06.2016</strong>. In den beiden vorhandenen animierten Karten ist jetzt
-                                die Gesamtübersichtfunktion vorhanden, die die Karte zum uhrsprunglichen Maßstab bringt.
-                                Maßstab ist jetzt abgegrenzt und nimmt die Werte von 7 bis 11 an, der Standardwert ist 9.
-                                Zusätzlich wurde die Rechtschreibung verbessert, Überschrifte von Buttons geändert und
+                                die Gesamtübersichtfunktion vorhanden, welche die Karte zum ursprünglichen Maßstab bringt.
+                                Der Maßstab ist jetzt begrenzt und nimmt die Werte von 7 bis 11 an, der Standardwert ist 9.
+                                Zusätzlich wurde die Rechtschreibung korrigiert und Überschriften von Buttons geändert sowie
                                 Hinweise hinzugefügt.
                             </p>
                         </div>
@@ -364,12 +365,12 @@
                         <a href="img/popup.png" class="image"><img src="img/popup.png" alt="" /></a>
                         <div class="inner">
                             <h4>Infowindow</h4>
-                            <p><strong>02.06.2016</strong>. Die Schicht mit allen Denkmäler auf der Karte des Auftretens
-                                der Pest enthält jetzt die folgenden Informationen:
-                                <br>Name und Ort: tauchen auf, wenn der Zeiger über dem Punkt schwebt
-                                <br>Bild des Denkmals: beim Anklicken.
-                            Design des Fensters, das auftaucht, wenn man den Punkt anklickt, wurde mit Hilfe von HTML-Templates
-                             korrigiert, da mit den Standardeinstellungen die vorhandenen Daten nicht optimal dargestellt werden.
+                            <p><strong>02.06.2016</strong>. Die Schicht mit den Denkmälern der Karte des Auftretens
+                                der Pest, enthält jetzt folgenden Informationen:
+                                <br>Name und Ort: Erscheint, wenn der Mauszeiger über den Punkt bewegt wird.
+                                <br>Bild des Denkmals: Erscheint durch anklicken des Punktsymbols.
+                            Das Design des Fensters, welches erscheint wenn man auf den Punkt klickt, wurde mit Hilfe von HTML-Templates
+                             korrigiert da mit den Standardeinstellungen die vorhandenen Daten nicht optimal dargestellt werden.
                             <p>
                         </div>
                     </article>
