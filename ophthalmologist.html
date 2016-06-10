@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/test.css" />
     <link rel="icon" type="image/png" sizes="96x96" href="img/icon/eye-icon-96x96.png">
-    <title>Hausärzte</title>
+    <title>Augenärzte</title>
 </head>
 
 <body class="right-sidebar">
@@ -46,12 +46,21 @@
 
                     <!-- Post -->
                     <article class="box post">
-                        <div class="image featured" id="map">
-                            <img src="img/construction.jpg">
-                        </div>
+                        <div class="video-container">
+                           <iframe id="ytplayer"
+                            src="https://www.youtube.com/embed/bPlJ6tj_-OA?autoplay=0&origin=wwww.evnica.com"
+                            frameborder="0" allowfullscreen></iframe>
+                            <script>
+                                $(function(){
+                                    $('#ytplayer').css({ width: $('#map').innerWidth() + 'px', height: $('#map').innerHeight() + 'px' });
 
-                        <script src="https://maps.googleapis.com/maps/api/js?callback=initMap&language=de&region=DE"
-                                async defer></script>
+                                    // If you want to keep full screen on window resize
+                                    $(window).resize(function(){
+                                        $('#ytplayer').css({ width: $('#map').innerWidth() + 'px', height: $('#map').innerHeight() + 'px' });
+                                    });
+                                });
+                            </script>
+                        </div>
 
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sit amet massa consectetur
                             sapien suscipit condimentum ac non magna. Vivamus dignissim augue volutpat risus maximus
